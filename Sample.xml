@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Child attribute1="translate"> Text for translation (attribute1) </Child>
+  <Child attribute2="Do not translate">Do not translate this (attribute2) </Child>
+  <comment> This is comment. </comment>
+  <comment2> This is 2nd comment. </comment> 
+  <comment3> Yet another comment. </comment>
+  <lis translate="true">translate this (lis) </lis>
+  <lis translate="false">do not translate this (lis) </lis>
+</root>
