@@ -1,0 +1,17 @@
+{
+"root":
+  [
+	{
+	"title":"text for translation 112 <b>bold</b>",
+	"note": "note for text 1",
+	"length":13,
+	"key":1222
+	},
+	{
+	"description":"text <b>bold</b> for translation 2",
+	"note": "note for text 2",
+	"length":16,
+	"key":1223
+	}
+  ]
+}
