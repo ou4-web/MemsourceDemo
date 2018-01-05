@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title at="atribut">This is a title</title>
+	<number at="2">15</number>
+	<code>
+		<title>text <b>Hello</b>text </title>
+	</code>
+</root>
