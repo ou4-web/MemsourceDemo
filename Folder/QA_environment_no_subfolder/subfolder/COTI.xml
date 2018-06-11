@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<coti xmlns="http://www.dercom.de/COTI/2013/1.0/namespace" level="1" version="1.0" creator="Simonsoft CMS" creation-date="2017-10-04T11:32:21Z" package-id="78CAE6" archive="no">
-    <project name="78CAE6_de" project-id="78CAE6_de" checkout-date="2017-10-04T11:32:21Z" proposal="no">
-        <translation name="78CAE6_de" source-language="en-GB" target-language="de-DE" status="none">
-            <translation-file file-ref="translation files/EX-fans.xml" mime-type="text/xml" encoding="UTF-8"/>
-        </translation>
-    </project>
-</coti>
