@@ -97,6 +97,22 @@
     </Context>
   </Product>
 <Product>
+    <Id>0111</Id>
+    <String>At least {count, plural, =1 {one upper case letter is} other {# upper case letters are}} required.</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+</Product>
+  <Product>
+    <Id>0112</Id>
+    <String>At least {count, plural, =1 {one digit is} other {# digits are}} required.</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+<Product>
     <Id>012</Id>
     <String>Require personal information to reset your password</String>
     <MaxLength>15</MaxLength>
