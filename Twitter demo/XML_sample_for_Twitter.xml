@@ -2,7 +2,7 @@
 <Products>
   <Product>
     <Id>001</Id>
-    <String>Save changes</String>
+    <String>Save account changes</String>
     <MaxLength>30</MaxLength>
     <Context>
      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
@@ -46,6 +46,14 @@
     <MaxLength>15</MaxLength>
     <Context>
        <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>0061</Id>
+    <String>The password for {userName} has not been changes for {pwdNotChangedPeriod} days.</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
     </Context>
   </Product>
 <Product>
