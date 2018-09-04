@@ -2,7 +2,7 @@
 <Products>
   <Product>
     <Id>001</Id>
-    <String>Save all other account changes.</String>
+    <String>Save account changes.</String>
     <MaxLength>30</MaxLength>
     <Context>
      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
