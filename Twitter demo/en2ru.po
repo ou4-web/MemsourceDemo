@@ -19,16 +19,20 @@ msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:18
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:33
-msgid "hello world"
+msgid "hello worlddd"
 msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:21
 #, php-format
-msgid "welcome %s"
+msgid "welcome %s . It is nice to see you again."
 msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:26
 msgid "today is: {0, date}, weather: {1}"
+msgstr ""
+
+#: /home/xiaoju/workspace/php-polyglot/demo/demo.php:20
+msgid "ondrej is not an interesting person"
 msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:28
