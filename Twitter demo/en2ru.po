@@ -20,19 +20,19 @@ msgstr ""
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:18
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:33
 msgid "hello world"
-msgstr "你好世界"
+msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:21
 #, php-format
 msgid "welcome %s"
-msgstr "欢迎%s"
+msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:26
 msgid "today is: {0, date}, weather: {1}"
-msgstr "今天是：{0, date}, 天气： {1}"
+msgstr ""
 
 #: /home/xiaoju/workspace/php-polyglot/demo/demo.php:28
 msgid "{0,number,integer} window"
 msgid_plural "{0,number,integer} windows"
-msgstr[0] "{0,number,integer} 窗户"
-msgstr[1] "{0,number,integer} 窗户们"
+msgstr[0] ""
+msgstr[1] ""
