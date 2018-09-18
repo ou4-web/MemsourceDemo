@@ -2,7 +2,7 @@
 <items>
 <maxlength>5</maxlength>
   <unique_id>dashboard_name</unique_id>
-    <title>{variable} Página de inicio del tablero</title>
+    <title>{variable} Pál</title>
     <description>
     {variable}
 	
@@ -25,6 +25,26 @@
 <items>
   <unique_id>job_name</unique_id>
     <title>Página de trabajo</title>
+    <description>
+    The job management  
+    </description>
+    <context>Add a comment</context>
+
+</items>
+	
+	<items>
+  <unique_id>job_name3</unique_id>
+    <title>Job Page 3 actualizado</title>
+    <description>
+    The job management  
+    </description>
+    <context>Add a comment</context>
+
+</items>
+	
+		<items>
+  <unique_id>job_name4</unique_id>
+    <title>Job Page 4 actualizado</title>
     <description>
     The job management  
     </description>
