@@ -33,15 +33,7 @@
 
 </items>
 	
-	<items>
-  <unique_id>job_name3</unique_id>
-    <title>Job Page 3 updated</title>
-    <description>
-    The job management  
-    </description>
-    <context>Add a comment</context>
-
-</items>
+	
 	
 		<items>
   <unique_id>job_name4</unique_id>
