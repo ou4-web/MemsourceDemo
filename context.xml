@@ -1,0 +1,37 @@
+
+<application>
+<items>
+<maxlength>5</maxlength>
+  <unique_id>dashboard_name</unique_id>
+    <title>{variable} Dashboard Home Page</title>
+    <description>
+    {variable}
+	
+	The start of the application  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/dashboard.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>project_name</unique_id>
+    <title>Hello, {variable} </title>
+    <description>
+    The project management  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/projects.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>job_name</unique_id>
+    <title>Job Page</title>
+    <description>
+    The job management  
+    </description>
+    <context>Add a comment</context>
+
+</items>
+
+
+</application>
