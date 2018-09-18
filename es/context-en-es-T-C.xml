@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?><application>
+<items>
+<maxlength>5</maxlength>
+  <unique_id>dashboard_name</unique_id>
+    <title>{variable} Página de inicio del tablero</title>
+    <description>
+    {variable}
+	
+	The start of the application  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/dashboard.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>project_name</unique_id>
+    <title>Hola, {variable} </title>
+    <description>
+    The project management  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/projects.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>job_name</unique_id>
+    <title>Página de trabajo</title>
+    <description>
+    The job management  
+    </description>
+    <context>Add a comment</context>
+
+</items>
+
+
+</application>
