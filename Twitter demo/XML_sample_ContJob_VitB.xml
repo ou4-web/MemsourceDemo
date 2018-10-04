@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Products>
+  <Product>
+    <Id>001</Id>
+    <String>Save all account changes</String>
+    <MaxLength>30</MaxLength>
+    <Context>
+     <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+<Product>
+    <Id>002</Id>
+    <String>Re-enter your password to safe changes to your account</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>003</Id>
+    <String>Password</String>
+    <MaxLength>30</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>004</Id>
+    <String>Forgot your password?</String>
+    <MaxLength>30</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>005</Id>
+    <String>Cancel</String>
+    <MaxLength>10</MaxLength>
+    <Context>
+      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>006</Id>
+    <String>Save changes</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>0061</Id>
+    <String>The password for {userName} has not been changes for {pwdNotChangedPeriod} days.</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+<Product>
+    <Id>007</Id>
+    <String>Security</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>008</Id>
+    <String>Login verification</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>009</Id>
+    <String>Set up login verification</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>010</Id>
+    <String>You need to confirm the email address on your account to enable this feature.</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>011</Id>
+    <String>Password reset verification</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+<Product>
+    <Id>0111</Id>
+    <String>At least {count, plural, =1 {one upper case letter is} other {# upper case letters are}} required.</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+</Product>
+  <Product>
+    <Id>0112</Id>
+    <String>At least {count, plural, =1 {one digit is} other {# digits are}} required.</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+<Product>
+    <Id>012</Id>
+    <String>Require personal information to reset your password</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>013</Id>
+    <String>For added security, this requires you to confirm your email or phone number while resetting your password.</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>014</Id>
+    <String>Notifications</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+      <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/WWFVbC4tGVof01Qlg9UV1S7mBJ5TBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/WWFVbC4tGVof01Qlg9UV1S7mBJ5TBf.png"></td></tr></table>]]>
+    </Context>
+  </Product>
+  <Product>
+    <Id>015</Id>
+    <String>Dublin</String>
+    <MaxLength>15</MaxLength>
+    <Context>
+    </Context>
+  </Product>
+  <Product>
+    <Id>016</Id>
+    <String>Fenian Street, Dublin 2, DO2 AX07 Dublin</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+    </Context>
+  </Product>
+  <Product>
+    <Id>017</Id>
+    <String>new_user_id</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+    </Context>
+  </Product>
+  <Product>
+    <Id>018</Id>
+    <String>vit.bezousek@gmail.com</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+    </Context>
+  </Product>
+  <Product>
+    <Id>019</Id>
+    <String>http://www.client.com/</String>
+    <MaxLength>50</MaxLength>
+    <Context>
+    </Context>
+  </Product>
+</Products>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
