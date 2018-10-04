@@ -10,7 +10,7 @@
   </Product>
 <Product>
     <Id>002</Id>
-    <String>Re-enter your Twitter password to safe changes to your account</String>
+    <String>Re-enter your password to safe changes to your account</String>
     <MaxLength>50</MaxLength>
     <Context>
       <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/YINXmaCT0NWyLQfCa91Nr1NGTD3Uht.png"></td></tr></table>]]>
@@ -82,7 +82,7 @@
   </Product>
   <Product>
     <Id>010</Id>
-    <String>You need to confirm the email address on your Twitter account to enable this feature.</String>
+    <String>You need to confirm the email address on your account to enable this feature.</String>
     <MaxLength>15</MaxLength>
     <Context>
        <![CDATA[<table><tr><td><h4><a href="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png">Link to screenshot</a></h4></td><tr><td><h4></h4></td></tr><tr><td valign="top" width="250"><img src="https://monosnap.com/image/hgoj67ajyuR6q4GoAuOGCzCi4EvvBf.png"></td></tr></table>]]>
@@ -166,7 +166,7 @@
   </Product>
   <Product>
     <Id>019</Id>
-    <String>http://www.twitter.com/</String>
+    <String>http://www.client.com/</String>
     <MaxLength>50</MaxLength>
     <Context>
     </Context>
