@@ -1,0 +1,46 @@
+
+<application>
+
+<items>
+  <unique_id>dashboard_name</unique_id>
+    <string>Dashboard Home Page</string>
+	<maxlength>15</maxlength>
+    <description>
+    The start of the application  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/dashboard.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>project_name</unique_id>
+    <string>Project Overview</string>
+    <description>
+    The project management  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250" height=""><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/projects.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>job_name</unique_id>
+    <string>Job Page</string>
+    <description>
+    The job management  
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/Job-1.png"></img></td></tr></table>]]></context>
+
+</items>
+
+<items>
+  <unique_id>job_name_description</unique_id>
+    <string>Insert a Job</string>
+    <description>
+    The job insertion
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/Job-1.png"></img></td></tr></table>]]></context>
+
+</items>
+
+
+</application>
