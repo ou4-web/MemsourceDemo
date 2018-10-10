@@ -68,10 +68,10 @@
 	<maxlength>20</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/workflow_step.png"></img></td></tr></table>]]></context>
 </items>
-
+	
 <items>
-	<unique_id>assigned_providers</unique_id>
-	<string>割り当てられたプロバイダー</string>
+	<unique_id>assigned_providers_modified</unique_id>
+	<string></string>
 	<maxlength>20</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/assigned_providers.png"></img></td></tr></table>]]></context>
 </items>
@@ -90,4 +90,19 @@
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
 </items>
 
+<items>
+	<unique_id>new</unique_id>
+	<string></string>
+	<maxlength>15</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+	
+<items>
+	<unique_id>new_2</unique_id>
+	<string></string>
+	<maxlength>15</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+	
+	
 </application>
