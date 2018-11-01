@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> About Exploit Prevention </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />	
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="stylesheet_chm_ie.css" />
+<![endif]-->
+
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="20px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="http://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="http://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146653" class="heading4">About Exploit Prevention</h4>
+<p class="bodytext">Kaspersky Embedded Systems Security 2.2 provides the ability to protect process memory from exploits. This feature is implemented in the Exploit Prevention component. You can change the component's activity status and configure process memory protection settings.</p>
+<p class="bodytext">The component protects process memory from exploits by inserting an external Process Protection Agent (&#8220;Agent&#8221;) in the protected process.</p>
+<p class="bodytext">A Process Protection Agent is a dynamically loaded Kaspersky Embedded Systems Security 2.2 module that is inserted in protected processes to monitor their integrity and reduce the risk of being exploited.</p>
+<p class="bodytext">The Agent's operation within the protected process requires starting and stopping the process: the initial loading of the Agent into a process added to the protected process list is only possible if the process is restarted. Additionally, after a process has been removed from the protected process list, the Agent can be unloaded only after the process has been restarted.</p>
+<p class="warningbody">The Agent must be stopped to unload it from protected processes: if the Exploit Prevention component is uninstalled, the application freezes the environment and forces the Agent to be unloaded from protected processes. If during the component uninstallation the Agent is inserted in any of the protected processes, you must terminate the affected process. Computer restart may be required (for example, if system process is being protected).</p>
+<p class="bodytext">If evidence of an exploit attack in a protected process is detected, Kaspersky Embedded Systems Security 2.2 performs one of the following actions:</p>
+<ul class="listbullet1"><li class="listbullet1">Terminates the process if an exploit attempt is made.</li><li class="listbullet1">Reports the fact that the process has been compromised.</li></ul><p class="bodytext">You can stop process protection using one of the following methods:</p>
+<ul class="listbullet1"><li class="listbullet1">Uninstalling the component.</li><li class="listbullet1">Removing the process from the list of protected processes and restarting the process.</li></ul><p class="introheading">Kaspersky Security Exploit Prevention Service</p>
+<p class="bodytext">Kaspersky Security Exploit Prevention Service is required on the protected computer in order for the Exploit Prevention component to be most effective. This service and the Exploit Prevention component are part of the recommended installation. During installation of the service on the protected computer, the kavfswh process is created and started. This communicates information about protected processes from the component to the Security Agent.</p>
+<p class="bodytext">After the Kaspersky Security Exploit Prevention Service is stopped, Kaspersky Embedded Systems Security 2.2 continues to protect processes added to the protected process list, is also loaded in newly-added processes, and applies all available exploit prevention techniques to protect process memory.</p>
+<p class="bodytext">If the Kaspersky Security Exploit Prevention Service is stopped, the application will not receive information about events occurring with protected processes (including information about exploit attacks and the termination of processes). Furthermore, the Agent will not be able to receive information about new protection settings and the addition of new processes to the protected process list.</p>
+<p class="introheading">Exploit Prevention mode</p>
+<p class="bodytext">You can select one of the following modes to configure actions to reduce risks that vulnerabilities will be exploited in protected processes:</p>
+<ul class="listbullet1"><li class="listbullet1"><span class="guicharacter">Terminate on exploit</span>: apply this mode to terminate a process when an exploit attempt is made. <p class="warningcontinue1">Upon detecting an attempt to exploit a vulnerability in a protected critical operating system process, Kaspersky Embedded Systems Security 2.2 does not terminate the process, regardless of the mode indicated in the Exploit Prevention component settings.</p>
+</li><li class="listbullet1"><span class="guicharacter">Only notify about abused process</span>: apply this mode to receive information about instances of exploits in protected processes using events in the Filtered Security Audit.<p class="listcontinue1">If this mode is selected, Kaspersky Embedded Systems Security 2.2 logs all attempts to exploit vulnerabilities by creating events.</p>
+</li></ul>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="http://www.kaspersky.com" title="Go to Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+		
+		
+</body>
+
+</html>

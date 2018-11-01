@@ -1,0 +1,77 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring security settings in Kaspersky Security Center </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+<script language="javascript" type="text/javascript" src="dhtml_popup.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146641" class="heading4">Configuring security settings in Kaspersky Security Center</h4>
+<p class="attentionbody"> The process of configuring the settings of Kaspersky Embedded Systems Security 2.2 functional components in Kaspersky Security Center is similar to local configuration of the settings of these components in the Application Console. Detailed instructions on how to configure task settings and application functions are provided in the relevant sections of the <em class="emphasischaracter">Kaspersky Embedded Systems Security 2.2 User's Guide</em>.</p>
+<p class="procedureheading">To configure security settings manually, take the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">Expand the <span class="boldcharacter">Managed devices</span> node in the Kaspersky Security Center Administration Console tree and select the administration group for which you want to configure application settings.</li><li class="listnumber1">Perform one of the following actions in the details pane of the selected administration group:<ul class="listbullet2"><li class="listbullet2">To configure application settings for a group of computers, select the <span class="boldcharacter">Policies</span> tab and open the <span class="boldcharacter"><a id="h149663" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">Properties: &lt;Policy name&gt;</a></span><span class="guicharacter"><a id="h149663_2" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self"> </a></span><a id="h149663_3" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">window</a>.</li><li class="listbullet2">To configure the application for a single computer, select the <span class="boldcharacter">Devices</span> tab and open the <span class="boldcharacter"><a id="h149507" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self">Application settings</a></span><a id="h149507_2" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self"> window</a>.<p class="attentioncontinue2">If a device is being managed by an active Kaspersky Security Center policy and this policy blocks changes to the application settings, these settings cannot be edited in the <span class="boldcharacter">Application settings</span> window.</p>
+</li></ul></li><li class="listnumber1">In the <span class="guicharacter">Application settings</span> section, click the <span class="guicharacter">Settings</span> button under the <span class="guicharacter">Security and reliability</span> settings.</li><li class="listnumber1">In the <span class="guicharacter">Security settings</span> window, configure the following settings:<ul class="listbullet2"><li class="listbullet2">In the <span class="guicharacter">Reliability settings</span> section, configure the settings for recovery of Kaspersky Embedded Systems Security 2.2 tasks when the application returns an error or terminates.<ul class="listbullet3"><li class="listbullet3"><span class="guicharacter"><a id="h149665" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149665','h149665')" target="_self">Perform task recovery</a></span><div id="d149665" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149665')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">This check box enables or disables the recovery of Kaspersky Embedded Systems Security 2.2 tasks when the application returns an error or terminates. </p>
+<p class="settingdescr">If the check box is selected, Kaspersky Embedded Systems Security 2.2 automatically recovers Kaspersky Embedded Systems Security 2.2 tasks when the application returns an error or terminates. </p>
+<p class="settingdescr">If the check box is cleared, Kaspersky Embedded Systems Security 2.2 does not recover Kaspersky Embedded Systems Security 2.2 tasks when the application returns an error or terminates. </p>
+<p class="settingdescr">The check box is selected by default.</p>
+</div></li><li class="listbullet3"><span class="guicharacter"><a id="h149667" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149667','h149667')" target="_self">Recover On-Demand Scan tasks no more than (times)</a></span><div id="d149667" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149667')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The number of attempts to recover an On-Demand Scan task after Kaspersky Embedded Systems Security 2.2 returns an error. The entry field is available if the <span class="guicharacter">Perform task recovery</span> check box is selected.</p>
+</div></li></ul></li><li class="listbullet2">In the <span class="guicharacter">Actions when switching to UPS backup power</span> section, specify limitations on computer load created by Kaspersky Embedded Systems Security 2.2 after switching to UPS power:<ul class="listbullet3"><li class="listbullet3"><span class="guicharacter"><a id="h149669" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149669','h149669')" target="_self">Do not start scheduled scan tasks</a></span><div id="d149669" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149669')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">This check box enables or disables the start of a scheduled scan task after the computer switches to a UPS source until the standard power supply mode is restored. </p>
+<p class="settingdescr">If the check box is selected, Kaspersky Embedded Systems Security 2.2 does not start scheduled scan tasks after the computer switches to a UPS source until the standard power supply mode is restored. </p>
+<p class="settingdescr">If the check box is cleared, Kaspersky Embedded Systems Security 2.2 starts scheduled scan tasks regardless of the power supply mode. </p>
+<p class="settingdescr">The check box is selected by default.</p>
+</div></li><li class="listbullet3"><span class="guicharacter"><a id="h149671" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149671','h149671')" target="_self">Stop current scan tasks</a></span><div id="d149671" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149671')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The check box enables or disables the execution of running scan tasks after the computer switches to a UPS source. </p>
+<p class="settingdescr">If the check box is selected, Kaspersky Embedded Systems Security 2.2 pauses running scan tasks after the computer switches to a UPS source. </p>
+<p class="settingdescr">If the check box is cleared, Kaspersky Embedded Systems Security 2.2 continues running scan tasks after the computer switches to a UPS source. </p>
+<p class="settingdescr">The check box is selected by default.</p>
+</div></li></ul><p class="attentioncontinue2">Computer switches to UPS power only if the battery charge level drops below 90%.</p>
+</li><li class="listbullet2">In the <span class="guicharacter">Password protection settings</span> section, set a password to protect access to Kaspersky Embedded Systems Security 2.2 functions.</li></ul></li><li class="listnumber1">Click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The scalability and reliability settings are saved.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Importing rules from file of Kaspersky Security Center report on restricted devices </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146686" class="heading4">Importing rules from file of Kaspersky Security Center report on restricted devices</h4>
+<p class="bodytext">You can import data on restricted devices connections from the report generated in Kaspersky Security Center after completion of the Device Control task in <span class="guicharacter">Statistics only</span> mode and use this data to generate a list of Device Control allowing rules in the policy being configured.</p>
+<p class="bodytext">When generating the report on events occurring during the Device Control task, you can keep track of the devices whose connection is restricted.</p>
+<p class="warningbody">When importing data from the report on restricted devices into policy settings, make certain that the list you are using contains only devices which connection you want to allow.</p>
+<p class="procedureheading">To specify allowing rules for devices connection for a group of computers based on the Kaspersky Security Center report about restricted devices, take the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">In the policy properties in the settings of the Device Control task, select the <span class="guicharacter">Statistics only</span> mode.</li><li class="listnumber1">In the policy properties in the <span class="guicharacter">Events</span> section, make sure that:<ul class="listbullet2"><li class="listbullet2">The <span class="guicharacter">Critical Events</span> tab of the <em class="emphasischaracter">Mass storage restricted </em>event shows an event storage time that exceeds the planned time of task operation in <span class="guicharacter">Statistics only</span> mode (the default value is 30 days).</li><li class="listbullet2">The <span class="guicharacter">Warning</span> tab of the <em class="emphasischaracter">Statistics only: untrusted mass storage detected</em> event shows an event storage time that exceeds the planned time of task operation in <span class="guicharacter">Statistics only</span> mode (the default value is 30 days).<p class="warningcontinue2">When the period specified in the <span class="guicharacter">Storage time</span> column elapses, information about logged events is deleted and is not reflected in the report file. Before running the Device Control task in <span class="guicharacter">Statistics only</span> mode, make sure that the task run time does not exceed the configured storage time for the specified events.</p>
+</li></ul></li><li class="listnumber1">When the task has been completed, export the logged events into a TXT file. To do so, expand the <span class="guicharacter">Logs and notifications</span> node and in the <span class="guicharacter">Events</span> child node create a selection of events based on the <em class="emphasischaracter">Denied</em> criterion to view the devices whose connections will be restricted by the Device Control task. In the details pane of the selection, click the <span class="guicharacter">Export events</span> to file list to save the report on blocked application starts to a TXT file.<p class="warningcontinue1">Before importing and applying the generated report in a policy, make sure that the report contains data only on those devices whose connection you want to allow.</p>
+</li><li class="listnumber1">Import data about restricted devices connections into the Device Control policy. To do so, in the properties of the policy being configured, in the Device Control task settings, take the following steps:<ol class="listalpha2"><li class="listalpha2">On the <span class="guicharacter">General</span> tab, click the <span class="guicharacter">Rules list</span> button.<p class="listcontinue2">The <span class="guicharacter">Device Control rules</span> window opens.</p>
+</li><li class="listalpha2">Click the <span class="guicharacter">Add</span> button and in the context menu of the button select <span class="guicharacter">Import data of blocked devices from Kaspersky Security Center report</span>.</li><li class="listalpha2">Select the principle for adding rules from the list created on the basis of the Kaspersky Security Center report to the list of previously configured Device Control rules:<ul class="listbullet3"><li class="listbullet3"><span class="guicharacter">Add to existing rules</span> if you want to add the imported rules to the list of existing ones. Rules with identical settings are duplicated.</li><li class="listbullet3"><span class="guicharacter">Replace existing rules</span> if you want to replace the existing rules with the imported ones.</li><li class="listbullet3"><span class="guicharacter">Merge with existing rules</span> if you want to add the imported rules to the list of existing ones. Rules with identical settings are not added; the rule is added if at least one rule parameter is unique.</li></ul></li><li class="listalpha2">In the standard window of Microsoft Windows that opens, select the TXT file to which events from the report about restricted devices have been exported.</li><li class="listalpha2">Click <span class="guicharacter">OK</span> in the <span class="guicharacter">Device Control rules</span> and in the <span class="guicharacter">Task settings</span> window.</li></ol></li></ol><p class="bodytextindent">Rules created on the basis of the Kaspersky Security Center report on restricted devices are added to the list of Device Control rules.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

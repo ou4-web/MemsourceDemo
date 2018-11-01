@@ -1,0 +1,78 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> About the Firewall Management task </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />	
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="stylesheet_chm_ie.css" />
+<![endif]-->
+
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="20px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="http://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="http://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146689" class="heading4">About the Firewall Management task</h4>
+<p class="bodytext">Kaspersky Embedded Systems Security 2.2 provides a reliable and ergonomic solution for protecting network connections using the Firewall Management task.</p>
+<p class="bodytext">The Firewall Management task does not perform independent network traffic filtering, but it allows you to manage Windows Firewall through the Kaspersky Embedded Systems Security 2.2 graphical interface. During the Firewall Management task Kaspersky Embedded Systems Security 2.2 takes over management of the settings and policies of the operation system's firewall and blocks any possibility of external firewall configuration.</p>
+<p class="bodytext">During installation of the application, the Firewall Management component reads and copies the Windows Firewall status and all specified rules. After that, the set of rules and the rule parameters may only be changed, and the firewall may only be turned on or off in Kaspersky Embedded Systems Security 2.2.</p>
+<p class="warningbody">If Windows Firewall is turned off during installation of Kaspersky Embedded Systems Security 2.2, the Firewall Management task will not be executed after the installation completes. If Windows Firewall is turned on during installation of the application, the Firewall Management task is executed after the installation completes, blocking all network connections that are not allowed by the specified rules.</p>
+<p class="spacer"></p>
+<p class="attentionbody">The Firewall Management component is not installed by default, as it is not included in the set of components for the Recommended Installation.</p>
+<p class="bodytext">The Firewall Management task enforces blocking of all incoming and outgoing connections not allowed by the task's specified rules.</p>
+<p class="bodytext">The task polls the Windows Firewall regularly and monitors its status. By default, the polling interval is set to 1 minute and cannot be changed. If during polling Kaspersky Embedded Systems Security 2.2 detects a mismatch between the Windows Firewall settings and the Firewall Management task settings, the application forcibly applies the task settings on the operating system firewall.</p>
+<p class="bodytext">With minute-by-minute polling of the Windows Firewall, Kaspersky Embedded Systems Security 2.2 monitors the following:</p>
+<ul class="listbullet1"><li class="listbullet1">Operating status of the Windows Firewall.</li><li class="listbullet1">Status of rules added after installation of Kaspersky Embedded Systems Security 2.2 by other applications or tools (for example, the addition of a new application rule for a port/application using wf.msc).</li></ul><p class="bodytext">When applying the new rules to Windows Firewall, Kaspersky Embedded Systems Security 2.2 creates a Kaspersky Security Group rule set in the <span class="guicharacter">Windows Firewall</span> snap-in. This rule set unites all the rules created by Kaspersky Embedded Systems Security 2.2 using the Firewall Management task. The rules in the Kaspersky Security Group are not monitored by the application during the polling each minute and are not automatically synchronized with the list of rules specified in the Firewall Management task settings.</p>
+<p class="procedureheading">To update the Kaspersky Security Group rules manually,</p>
+<p class="bodytextindent">restart the Kaspersky Embedded Systems Security 2.2 Firewall Management task.</p>
+<p class="bodytext">You can also edit the Kaspersky Security Group rules manually using the <span class="guicharacter">Windows Firewall</span> snap-in.</p>
+<p class="attentionbody">If Windows Firewall is managed by the Kaspersky Security Center group policy, the Firewall Management task cannot be started.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="http://www.kaspersky.com" title="Go to Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+		
+		
+</body>
+
+</html>

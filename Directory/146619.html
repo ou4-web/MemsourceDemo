@@ -1,0 +1,65 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Creating policy </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146619" class="heading4">Creating policy</h4>
+<p class="bodytext">The process of creating a policy involves the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">Creating a policy using the policy wizard. Real-Time Computer Protection tasks settings can be configured using the wizard dialogs.</li><li class="listnumber1">Configuring policy settings. In the <span class="boldcharacter">Properties: &lt;Policy name&gt;</span> window of the created policy, you can define the Real-Time Computer Protection tasks settings, the general settings of Kaspersky Embedded Systems Security 2.2, the Quarantine and Backup settings, the level of detail for task logs, as well as user and administrator notifications about Kaspersky Embedded Systems Security 2.2 events.</li></ol><p class="procedureheading">In order to create a policy for a group of computers running the installed Kaspersky Embedded Systems Security 2.2, take the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">Expand the <span class="boldcharacter">Managed devices</span> node in the Kaspersky Security Center Administration Console tree, then select the administration group containing the computers for which you wish to create a policy.</li><li class="listnumber1">In the details pane of the selected administration group, select the <span class="boldcharacter">Policies </span>tab and click the <span class="boldcharacter">Create a policy</span> link to start the wizard and create a policy.<p class="listcontinue1">The <span class="boldcharacter">New Policy Wizard </span>window opens.</p>
+</li><li class="listnumber1">In the <span class="boldcharacter">Select the application for which you want to create a group policy </span>window, select Kaspersky Embedded Systems Security 2.2 and click <span class="guicharacter"><span class="guicharacter">Next</span></span>.</li><li class="listnumber1"><span class="boldcharacter">Enter a group policy name</span> in the <span class="guicharacter"><span class="guicharacter">Name </span></span>field. <p class="attentioncontinue1">The policy name cannot contain the following symbols: <code class="programcharacter">&quot; * &lt; : &gt; ? \ | </code>.</p>
+</li><li class="listnumber1">To apply policy configuration used for the previous application version: <ol class="listalpha2"><li class="listalpha2">Select the <span class="boldcharacter">Use settings from policy for previous versions of application</span> check box.</li><li class="listalpha2">Click the <span class="guicharacter"><span class="guicharacter">Browse </span></span>button and select the policy you want to apply.</li><li class="listalpha2">Click <span class="guicharacter"><span class="guicharacter">Next</span></span>.</li></ol></li><li class="listnumber1">In the <span class="boldcharacter">Operation type selection</span> window, select one of the following options:<ul class="listbullet2"><li class="listbullet2"><span class="guicharacter"><span class="guicharacter">New</span></span>, to create new policy with default settings.</li><li class="listbullet2"><span class="guicharacter"><span class="guicharacter">Import policy created with previous versions of Kaspersky Embedded Systems Security</span></span>, to use that version policy as a template.</li><li class="listbullet2">Click <span class="guicharacter"><span class="guicharacter">Browse</span></span> and select a configuration file where an existing policy is stored.</li></ul></li><li class="listnumber1">In the <span class="guicharacter"><span class="guicharacter">Real-Time Computer Protection</span></span> window, configure the Real-Time File Protection, KSN Usage tasks and Exploit Prevention functionality as required. Allow or block the use of configured policy tasks on local computers on the network:<ul class="listbullet2"><li class="listbullet2">Click the <img id="f11208" src="adminkit_lock1.jpg" class="linkedjpegfiletemplate" alt="?????? &quot;?????&quot;" height="8" width="8" vspace="0" hspace="0" align="bottom" border="0"> button to allow changes to task settings on network computers and block the application of task settings configured in the policy.</li><li class="listbullet2">Click the <img id="f11209" src="adminkit_lock_unlock.jpg" class="linkedjpegfiletemplate" alt="?????? &quot;???????? ?????&quot;" height="8" width="9" vspace="0" hspace="0" align="bottom" border="0"> button to deny changes to task settings on network computers and allow the application of task settings configured in the policy.</li></ul><p class="listcontinue1">The newly created policy uses the default settings of Real-Time Computer Protection tasks.</p>
+<ul class="listbullet2"><li class="listbullet2">To edit the default settings of the Real-Time File Protection task, click the <span class="guicharacter"><span class="guicharacter">Settings</span></span> button in the <span class="guicharacter"><span class="guicharacter">Real-Time File Protection</span></span> section. In the window that opens, configure the task according to your needs. Click <span class="guicharacter"><span class="guicharacter">OK</span></span>.</li><li class="listbullet2">To edit the default settings of the KSN Usage task, click the <span class="guicharacter"><span class="guicharacter">Settings</span></span> button in the <span class="guicharacter"><span class="guicharacter">KSN Usage</span></span> section. In the window that opens, configure the task according to your needs. Click <span class="guicharacter"><span class="guicharacter">OK</span></span>.<p class="warningcontinue2">To start the KSN Usage task, you need to accept the KSN Statement in the <a id="h160727" class="crossreferencetemplate" title="Configuring Data Processing" href="160705.html" target="_self">Data handling window</a>.</p>
+</li><li class="listbullet2">To edit the default settings of the Exploit Prevention component, click the <span class="guicharacter"><span class="guicharacter">Settings</span></span> button in the <span class="guicharacter"><span class="guicharacter">Exploit Prevention</span></span> section. In the window that opens, configure the functionality according to your needs. Click <span class="guicharacter"><span class="guicharacter">OK</span></span>.</li></ul></li><li class="listnumber1">Select one of the following policy statuses in the <span class="boldcharacter">Create the group policy for the application</span> window:<ul class="listbullet2"><li class="listbullet2"><span class="boldcharacter">Active policy</span> if you want to apply the policy immediately after it is created. If an active policy already exists in the group, it is deactivated and a new policy is applied.</li><li class="listbullet2"><span class="boldcharacter">Inactive policy</span> if you do not want to apply the created policy immediately. In this case the policy may be activated later.</li><li class="listbullet2">Select the <span class="boldcharacter">Open policy properties immediately after they are created</span> check box to automatically close the <span class="boldcharacter">New Policy Wizard</span> and configure the newly created policy after clicking the <span class="guicharacter"><span class="guicharacter">Next </span></span>button.</li></ul></li><li class="listnumber1">Click the <span class="boldcharacter">Finish</span> button in the <span class="boldcharacter">Completing the Wizard</span> window of the Wizard.</li></ol><p class="bodytextindent">The created policy appears in the list of policies on the <span class="boldcharacter">Policies</span> tab of the selected administration group. In the <span class="boldcharacter">Properties: &lt;Policy name&gt;</span> window, you can configure other settings, tasks and functions of Kaspersky Embedded Systems Security 2.2.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

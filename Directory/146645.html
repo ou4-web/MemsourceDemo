@@ -1,0 +1,108 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Removable Drives Scan </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146645" class="heading4">Removable Drives Scan</h4>
+<p class="bodytext">You can configure scanning of removable drives connected to the protected computer via the USB port.</p>
+<p class="bodytext">Kaspersky Embedded Systems Security 2.2 scans a removable drive using the On-Demand Scan task. The application automatically creates a new On-Demand Scan task when the removable drive is connected and deletes the task after the scanning is completed. The created task is performed with the predefined security level defined for removable drive scanning. You cannot configure the settings of the temporary On-Demand Scan task.</p>
+<p class="attentionbody">Kaspersky Embedded Systems Security 2.2 scans connected removable USB drives when they are registered as USB mass storage devices in the operating system.  The application does not scan a removable drive if the connection is blocked by the Device Control task. The application does not scan MTP-connected mobile devices.</p>
+<p class="bodytext">Kaspersky Embedded Systems Security 2.2 allows access to removable drives during scanning.</p>
+<p class="bodytext">Scan results for each removable drive are available in the log for the On-Demand Scan task created upon connection of the removable drive.</p>
+<p class="bodytext">You can change the settings of the Removable Drives Scan component (see the table below).</p>
+<p class="tablename">Removable Drives Scan settings</p>
+<p class="spacerfortables"></p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="217"><p class="tableheading">Setting</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="217"><p class="tableheading">Default Value</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="217"><p class="tableheading">Description</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext"><span class="guicharacter">Scan removable drives on connection via USB</span></p>
+</td>
+<td style="border:1px solid #010101;" width="217"><p class="tablebodytext">Check box is cleared</p>
+</td>
+<td style="border:1px solid #010101;" width="217"><p class="bodytext">You can turn on or turn off scanning of removable drive upon connection to the protected computer via USB.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext"><span class="guicharacter">Scan removable drives if its stored data volume does not exceed (MB):</span></p>
+</td>
+<td style="border:1px solid #010101;" width="217"><p class="bodytext">1024 MB</p>
+</td>
+<td style="border:1px solid #010101;" width="217"><p class="tablebodytext">You can reduce the component's scope by setting the maximum volume of data on the scanned drive.</p>
+<p class="tablebodytext">Kaspersky Embedded Systems Security 2.2 does not perform removable drive scanning if the volume of stored data exceeds the specified value.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext"><span class="guicharacter">Scan with security level</span></p>
+</td>
+<td style="border:1px solid #010101;" width="217"><p class="tablebodytext">Maximum protection</p>
+</td>
+<td style="border:1px solid #010101;" width="217"><p class="tablebodytext">You can configure the created On-Demand Scan tasks by selecting one of three security levels:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Maximum protection</li><li class="tablelistbullet">Recommended</li><li class="tablelistbullet">Maximum performance<p class="tablebodytext">The algorithm used when infected, probably infected, and other objects are detected, as well as the other scan settings for each security level, correspond to the predefined security levels in the On-Demand Scan tasks.</p>
+</li></ul></td>
+</tr>
+
+</table>
+<p class="bodytext">To configure scanning of removable drives on connection, perform the following actions:</p>
+<ol class="listnumber1"><li class="listnumber1">Expand the <span class="boldcharacter">Managed devices</span> node in the Kaspersky Security Center Administration Console tree and select the administration group for which you want to configure application settings.</li><li class="listnumber1">Perform one of the following actions in the details pane of the selected administration group:<ul class="listbullet2"><li class="listbullet2">To configure application settings for a group of computers, select the <span class="boldcharacter">Policies</span> tab and open the <span class="boldcharacter"><a id="h149663" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">Properties: &lt;Policy name&gt;</a></span><span class="guicharacter"><a id="h149663_2" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self"> </a></span><a id="h149663_3" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">window</a>.</li><li class="listbullet2">To configure the application for a single computer, select the <span class="boldcharacter">Devices</span> tab and open the <span class="boldcharacter"><a id="h149507" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self">Application settings</a></span><a id="h149507_2" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self"> window</a>.<p class="attentioncontinue2">If a device is being managed by an active Kaspersky Security Center policy and this policy blocks changes to the application settings, these settings cannot be edited in the <span class="boldcharacter">Application settings</span> window.</p>
+</li></ul></li><li class="listnumber1">In the <span class="guicharacter">Supplementary </span>section click <span class="guicharacter">Settings </span>in the <span class="guicharacter">Removable Drives Scan</span> block.<p class="listcontinue1">The <span class="guicharacter">Removable Drives Scan</span> window opens.</p>
+</li><li class="listnumber1">In the <span class="guicharacter">Scan on connection</span> section do the following:<ul class="listbullet2"><li class="listbullet2">Select the <span class="guicharacter">Scan removable drives on connection via USB</span> check box, if you want Kaspersky Embedded Systems Security 2.2 to automatically scan removable drives when they are connected.</li><li class="listbullet2">If required, select the <span class="guicharacter">Scan removable drives if its stored data volume does not exceed (MB)</span> and specify the maximum value in the field on the right.</li><li class="listbullet2">In the <span class="guicharacter">Scan with security level</span> drop-down list specify the security level with the settings that are required for removable drives scanning.</li></ul></li><li class="listnumber1">Click <span class="guicharacter">OK</span>.<p class="listcontinue1">The specified settings are saved and applied.</p>
+</li></ol>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

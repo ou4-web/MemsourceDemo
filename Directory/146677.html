@@ -1,0 +1,68 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Importing Applications Launch Control rules from XML file </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h5 id="t146677" class="heading5">Importing Applications Launch Control rules from XML file</h5>
+<p class="bodytext">You can import reports generated upon the Rule Generator for Applications Launch Control group task completion and apply them as a list of allowing rules in the policy you are configuring.</p>
+<p class="bodytext">When the Rule Generator for Applications Launch Control group task finishes, the application exports the created allowing rules into XML files saved in the specified shared network folder. Each file with the list of rules is created based on analysis of files executed and applications launched on each separate computer on the corporate network. Lists contain allowing rules for files and applications whose type matches the type specified in the Rule Generator for Applications Launch Control group task.</p>
+<p class="attentionbody"> The process of configuring the settings of Kaspersky Embedded Systems Security 2.2 functional components in Kaspersky Security Center is similar to local configuration of the settings of these components in the Application Console. Detailed instructions on how to configure task settings and application functions are provided in the relevant sections of the <em class="emphasischaracter">Kaspersky Embedded Systems Security 2.2 User's Guide</em>.</p>
+<p class="procedureheading">To specify allowing rules for application launch for a group of computers based on an automatically generated list of allowing rules, take the following steps.</p>
+<ol class="listnumber1"><li class="listnumber1">On the <span class="guicharacter">Tasks</span> tab in the control panel of the group of computers you are configuring, create a Rule Generator for Applications Launch Control group task or select an existing task.</li><li class="listnumber1">In the properties of the created Rule Generator for Applications Launch Control group task or in the task wizard, specify the following settings:<ul class="listbullet2"><li class="listbullet2">In the <span class="guicharacter">Notification</span> section, configure the settings for saving the task execution report.<p class="attentioncontinue2">For detailed instructions on configuring settings in this section, see the <em class="emphasischaracter">Kaspersky Security Center Help.</em></p>
+</li><li class="listbullet2">In the <span class="guicharacter">Settings</span> section, specify the types of applications whose start will be allowed by the rules that are created. You can edit the content of the folders containing allowed applications: exclude default folders from the task scope or add new folders manually.</li><li class="listbullet2">In the <span class="guicharacter">Options</span> section, specify the task operations while it is running and after it is completed. Specify the criterion based on which the rules will be generated and the name of the file to which these rules will be exported.</li><li class="listbullet2">In the <span class="guicharacter">Schedule</span> section, configure the task start schedule settings.</li><li class="listbullet2">In the <span class="guicharacter">Account</span> section, specify the user account under which the task will be executed.</li><li class="listbullet2">In the <span class="guicharacter">Exclusions from task scope</span> section, specify the groups of computers to be excluded from the task scope.<p class="attentioncontinue2">Kaspersky Embedded Systems Security 2.2 does not create allowing rules for applications launched on excluded computers.</p>
+</li></ul></li><li class="listnumber1">On the <span class="guicharacter">Tasks</span> tab on the control panel of the group of computers being configured, in the list of group tasks select the Rule Generator for Applications Launch Control that you have created, and click the <span class="guicharacter">Start</span> button to start the task.<p class="listcontinue1">When the task is completed, automatically generated lists of allowing rules are saved in a shared network folder in XML files.</p>
+<p class="attentioncontinue1">Before using the Applications Launch Control policy in the network, make sure that all protected computers have access to a shared network folder. If the organization&#8217;s policy does not provide for the use of a shared network folder in the network, it is recommended to start the Automatic Rules Generators task for computer control rules on the test computer group or on a template machine.</p>
+</li><li class="listnumber1">Add the generated lists of allowing rules to the Applications Launch Control task. To do so, in the properties of the policy being configured, in the Applications Launch Control task settings:<ol class="listalpha2"><li class="listalpha2">On the <span class="guicharacter">General</span> tab, click the <span class="guicharacter">Rules list</span> button.<p class="listcontinue2">The <span class="guicharacter">Applications Launch Control rules</span> window opens.</p>
+</li><li class="listalpha2">Click the<span class="guicharacter"> Add</span> button and in the list that opens select<span class="guicharacter"> Import rules from XML file</span>.</li><li class="listalpha2">Select the principle for adding the automatically generated allowing rules to the list of previously created Applications Launch Control rules:<ul class="listbullet3"><li class="listbullet3"><span class="guicharacter">Add to existing rules</span> if you want to add the imported rules to the list of existing ones. Rules with identical settings are duplicated.</li><li class="listbullet3"><span class="guicharacter">Replace existing rules</span> if you want to replace the existing rules with the imported ones.</li><li class="listbullet3"><span class="guicharacter">Merge with existing rules</span> if you want to add the imported rules to the list of existing ones. Rules with identical settings are not added; the rule is added if at least one rule parameter is unique.</li></ul></li><li class="listalpha2">In the standard window of Microsoft Windows that opens, select XML files created after completion of the Rule Generator for Applications Launch Control group task.</li><li class="listalpha2">Click <span class="guicharacter">OK</span> in the <span class="guicharacter">Applications Launch Control rules</span> and in the <span class="guicharacter">Task settings</span> window.</li></ol></li><li class="listnumber1">If you want to apply the created rules to control the application launch, in the policy in the properties of the Applications Launch Control task select the <span class="guicharacter">Active</span> task run mode.</li></ol><p class="bodytextindent">Allowing rules automatically generated based on task runs on each separate computer are applied to all network computers covered by the policy being configured. On these computers, the application will allow launching only those applications for which allowing rules have been created.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

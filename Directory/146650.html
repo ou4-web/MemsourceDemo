@@ -1,0 +1,158 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring SIEM integration settings </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+<script language="javascript" type="text/javascript" src="dhtml_popup.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146650" class="heading4">Configuring SIEM integration settings</h4>
+<p class="bodytext">To reduce the load on low-performance devices and to reduce the risk of system degradation as a result of increased volumes of application logs, you can configure the publication of audit events and task performance events to the <em class="emphasischaracter">syslog server</em> via the Syslog protocol.</p>
+<p class="bodytext">A syslog server is an external server for aggregating events (SIEM). It collects and analyzes received events and also performs other actions for managing logs.</p>
+<p class="bodytext">You can use SIEM integration in two modes:</p>
+<ul class="listbullet1"><li class="listbullet1">Duplicate events on the syslog server: this mode prescribes that all task performance events whose publication is configured in the settings of logs as well as all system audit events continue to be stored on the local computer even after they are sent to SIEM.<p class="listcontinue1">It is recommended to use this mode to maximally reduce the load on the protected computer.</p>
+</li><li class="listbullet1">Delete local copies of events: this mode prescribes that all events that are registered during application operation and published to SIEM will be deleted from the local computer.<p class="attentioncontinue1">The application never deletes local versions of the security log.</p>
+</li></ul><p class="bodytext">Kaspersky Embedded Systems Security 2.2 can convert events in application logs into formats supported by the syslog server so that those events can be transmitted and successfully recognized by SIEM. The application supports conversion into structured data format and into JSON format.</p>
+<p class="bodytext">To reduce the risk of unsuccessful transmission of events to SIEM, you can define the settings for connecting to the mirror syslog server.</p>
+<p class="bodytext">A mirror syslog server is an additional syslog server to which the application switches automatically if the connection to the main syslog server is unavailable or if the main server cannot be used.</p>
+<p class="bodytext">By default, SIEM integration is not used. You can enable and disable SIEM integration, and configure functionality settings (see the table below).</p>
+<p class="tablename">SIEM integration settings</p>
+<table class="tableintopic" width="900" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<th bgcolor="#C8C8C8" style="border:1px solid #010101;" width="217"><p class="tableheading">Setting</p>
+</th>
+<th bgcolor="#C8C8C8" style="border:1px solid #010101;" width="131"><p class="tableheading">Default Value</p>
+</th>
+<th bgcolor="#C8C8C8" style="border:1px solid #010101;" width="552"><p class="tableheading">Description</p>
+</th>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext"><span class="guicharacter">Send events to a remote syslog server via syslog protocol</span></p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">Not applied</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can enable or disable SIEM integration by selecting or clearing the check box, respectively.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext"><span class="guicharacter">Remove local copies for events that have been sent to a remote syslog server</span></p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">Not applied</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can configure the settings for storing local copies of logs after they are sent to SIEM by selecting or clearing the check box.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext">Events format</p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">Structured data</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can select one of two formats to which the application converts its events prior to sending them to the syslog server for better recognition of these events by SIEM.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext">Connection protocol</p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">TCP</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can use the drop-down list to configure the connection to the main syslog server via the UDP or TCP protocols; to the mirror syslog server via the TCP protocol.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext">Main syslog server connection settings</p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">IP address: 127.0.0.1</p>
+<p class="bodytext">Port: 514</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can use the appropriate fields to configure the IP address and port used to connect to the main syslog server.</p>
+<p class="bodytext">You can specify the IP address only in IPv4 format.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext"><span class="guicharacter">Use mirror syslog server if the main server is not accessible</span></p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">Not applied</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can use the check box to enable or disable the use of a mirror syslog server.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="217"><p class="bodytext">Mirror syslog server connection settings</p>
+</td>
+<td style="border:1px solid #010101;" width="131"><p class="bodytext">IP address: 127.0.0.1</p>
+<p class="bodytext">Port: 514</p>
+</td>
+<td style="border:1px solid #010101;" width="552"><p class="bodytext">You can use the appropriate fields to configure the IP address and port used to connect to the main syslog server.</p>
+<p class="bodytext">You can specify the IP address only in IPv4 format.</p>
+</td>
+</tr>
+
+</table>
+<p class="procedureheading">To configure SIEM integration settings:</p>
+<ol class="listnumber1"><li class="listnumber1">Expand the <span class="boldcharacter">Managed devices</span> node in the Kaspersky Security Center Administration Console tree and select the administration group for which you want to configure application settings.</li><li class="listnumber1">Perform one of the following actions in the details pane of the selected administration group:<ul class="listbullet2"><li class="listbullet2">To configure application settings for a group of computers, select the <span class="boldcharacter">Policies</span> tab and open the <span class="boldcharacter"><a id="h149663" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">Properties: &lt;Policy name&gt;</a></span><span class="guicharacter"><a id="h149663_2" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self"> </a></span><a id="h149663_3" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">window</a>.</li><li class="listbullet2">To configure the application for a single computer, select the <span class="boldcharacter">Devices</span> tab and open the <span class="boldcharacter"><a id="h149507" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self">Application settings</a></span><a id="h149507_2" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self"> window</a>.<p class="attentioncontinue2">If a device is being managed by an active Kaspersky Security Center policy and this policy blocks changes to the application settings, these settings cannot be edited in the <span class="boldcharacter">Application settings</span> window.</p>
+</li></ul></li><li class="listnumber1">In the <span class="guicharacter">Logs and notifications</span> section click the <span class="guicharacter">Settings</span> button in the <span class="guicharacter">Task logs </span>block.<p class="listcontinue1">The <span class="guicharacter">Logs and notifications settings </span>window opens.</p>
+</li><li class="listnumber1">Select the <span class="guicharacter">SIEM integration </span>tab.</li><li class="listnumber1">In the <span class="guicharacter">Integration settings</span> section, select the <span class="guicharacter"><a id="h149746" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149746','h149746')" target="_self">Send events to a remote syslog server via syslog protocol</a></span> check box.<div id="d149746" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149746')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The check box enables or disables the functionality for sending published events to an external syslog server.</p>
+<p class="settingdescr">If the check box is selected, the application sends published events to SIEM according to the configured SIEM integration settings.</p>
+<p class="settingdescr">If the check box is cleared, the application does not perform SIEM integration. You cannot configure SIEM integration settings if the check box is cleared.</p>
+<p class="settingdescr">The check box is cleared by default.</p>
+</div></li><li class="listnumber1">If necessary, in the <span class="guicharacter">Integration settings</span> section, select the <span class="guicharacter"><a id="h149747" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149747','h149747')" target="_self">Remove local copies for events that have been sent to a remote syslog server</a></span> check box.<div id="d149747" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149747')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The check box enables or disables deletion of local copies of logs when they are sent to SIEM.</p>
+<p class="settingdescr">If the check box is selected, the application deletes the local copies of events after they have been successfully published to SIEM. This mode is recommended on low-performance computers.</p>
+<p class="settingdescr">If the check box is cleared, the application only sends events to SIEM. Copies of logs continue to be stored locally.</p>
+<p class="settingdescr">The check box is cleared by default.</p>
+</div><p class="attentioncontinue1">The status of the <span class="guicharacter">Remove local copies for events that have been sent to a remote syslog server</span> check box does not affect the settings for storing events of the security log: the application never automatically deletes security log events.</p>
+</li><li class="listnumber1">In the <span class="guicharacter">Events format</span> section, specify the format to which you want to convert application operation events so that they can be sent to SIEM.<p class="listcontinue1">By default, the application converts them into structured data format.</p>
+</li><li class="listnumber1">In the <span class="guicharacter">Connection settings</span> section:<ul class="listbullet2"><li class="listbullet2">Specify the SIEM connection protocol.</li><li class="listbullet2">Specify the settings for connecting to the main syslog server.<p class="listcontinue2">You can specify an IP address in IPv4 format only.</p>
+</li><li class="listbullet2">If necessary, select the <span class="guicharacter">Use mirror syslog server if the main server is not accessible</span> check box if you want the application to use other connection settings when unable to send events to the main syslog server.  <ul class="listbullet3"><li class="listbullet3">Specify the following settings for connecting to the mirror syslog server: <span class="guicharacter">IP address</span> and <span class="guicharacter">Port</span>. <p class="listcontinue3">The <span class="guicharacter">IP address</span> and <span class="guicharacter">Port</span> fields for the mirror syslog server cannot be edited if the <span class="guicharacter">Use mirror syslog server if the main server is not accessible</span> check box is cleared.</p>
+<p class="listcontinue3">You can specify an IP address in IPv4 format only.</p>
+</li></ul></li></ul></li><li class="listnumber1">Click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The configured SIEM integration settings will be applied.</p>
+<p class="bodytextindent"></p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring scheduled start of local system tasks </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h3 id="t146621" class="heading3">Configuring scheduled start of local system tasks</h3>
+<p class="bodytext">You can use policies to allow or block start of the local system On-Demand Scan task and the Update task according to the schedule configured locally on each computer in the administration group:</p>
+<ul class="listbullet1"><li class="listbullet1">If the scheduled start of a specific type of local system task is prohibited by a policy, these tasks will not be performed on the local computer as per the schedule. You can start the local system tasks manually.</li><li class="listbullet1">If the scheduled start of a specific type of local system task is allowed by a policy, these tasks will be performed in accordance with the scheduled parameters configured locally for this task.</li></ul><p class="bodytext">By default, start of local system tasks is prohibited by policy.</p>
+<p class="attentionbody">We recommend that you do not allow local system tasks to start if updates or on-demand scans are being administered by Kaspersky Security Center group tasks.</p>
+<p class="bodytext">If you do not use group update or on-demand scan tasks, allow local system tasks to be started in the policy: Kaspersky Embedded Systems Security 2.2 will perform application database and module updates, and start all local system on-demand scan tasks in accordance with the default schedule.</p>
+<p class="bodytext">You can use policies to allow or block the scheduled start of the following local system tasks:</p>
+<ul class="listbullet1"><li class="listbullet1">On-Demand Scan tasks: Critical Areas Scan, Quarantine Scan, Scan at Operating System Startup, Software Modules Integrity Check.</li><li class="listbullet1">Update tasks: Database Update, Software Modules Update and Copying Updates.</li></ul><p class="warningbody">If the protected computer is excluded from the administration group, the system tasks schedule will be enabled automatically.</p>
+<p class="procedureheading">To allow or block the scheduled start of Kaspersky Embedded Systems Security 2.2 system tasks in a policy take the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">In the <span class="boldcharacter">Managed devices</span> node in the Administration Console tree, expand the required group and select the <span class="boldcharacter">Policies</span> tab.</li><li class="listnumber1">On the <span class="boldcharacter">Policies</span> tab in the context menu of the policy with which you want to configure the scheduled start of Kaspersky Embedded Systems Security 2.2 system tasks on the group of computers, select the <span class="boldcharacter">Properties</span> command.</li><li class="listnumber1">In the <span class="boldcharacter">Properties: &lt;Policy name&gt;</span> window, open the <span class="boldcharacter">Application settings</span> section. In the <span class="guicharacter">Run system tasks</span> section, click the <span class="boldcharacter">Settings</span> button and perform the following:<ul class="listbullet2"><li class="listbullet2">Select the <span class="guicharacter">Allow on-demand scan tasks launch</span> and <span class="guicharacter">Allow update tasks and Copying Update task launch</span> check boxes to allow the scheduled launch of the listed tasks.</li><li class="listbullet2">Clear the <span class="guicharacter">Allow on-demand scan tasks launch</span> and <span class="guicharacter">Allow update tasks and Copying Update task launch</span> check boxes to disable the scheduled launch of the listed tasks.</li></ul><p class="attentioncontinue1">Selecting or clearing the check box will not affect the start settings of any local custom tasks of this type.</p>
+</li><li class="listnumber1">Make certain that the <a id="h149625" class="crossreferencetemplate" title="About policies" href="146618.html" target="_self">policy</a> you are configuring is active and applied to the selected group of computers.</li><li class="listnumber1">Click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The configured scheduled task start settings are applied for the selected tasks.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

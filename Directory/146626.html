@@ -1,0 +1,239 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring group tasks in Kaspersky Security Center </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h3 id="t146626" class="heading3">Configuring group tasks in Kaspersky Security Center</h3>
+<p class="attentionbody"> The process of configuring the settings of Kaspersky Embedded Systems Security 2.2 functional components in Kaspersky Security Center is similar to local configuration of the settings of these components in the Application Console. Detailed instructions on how to configure task settings and application functions are provided in the relevant sections of the <em class="emphasischaracter">Kaspersky Embedded Systems Security 2.2 User's Guide</em>.</p>
+<p class="procedureheading">To configure group task for multiple computers:</p>
+<ol class="listnumber1"><li class="listnumber1">In the Kaspersky Security Center Administration Console tree expand the <span class="boldcharacter">Managed devices</span> node and select the administration group for which you want to configure the application tasks.</li><li class="listnumber1">On the details pane of a selected administration group, open <span class="boldcharacter">Tasks</span> tab.</li><li class="listnumber1">In the list of previously created group tasks, select a task you want to configure. Open the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window in one of the following ways:<ul class="listbullet2"><li class="listbullet2">Double-click the name of the task in the list of created tasks.</li><li class="listbullet2">Select the name of the task in the list of created tasks and click <span class="boldcharacter">Configure task</span> link.</li><li class="listbullet2">Open the context menu of the task name in the list of created tasks and select the <span class="boldcharacter">Properties</span> item.</li></ul></li><li class="listnumber1">In the <span class="boldcharacter">Notification</span> section, configure the task event notification settings. <p class="attentioncontinue1">For detailed information regarding configuring settings in this section, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</p>
+</li><li class="listnumber1">Depending on the type of configured task, do one of the following actions:<ul class="listbullet2"><li class="listbullet2">To configure an On-Demand Scan task:<ol class="listalpha3"><li class="listalpha3">In the <span class="boldcharacter">Scan scope</span> section, configure a scan scope.</li><li class="listalpha3">In the <span class="guicharacter">Options</span> section, configure task priority level and integration with other software components.</li></ol></li><li class="listbullet2">To configure an update task, adjust task settings based on your requirements:<ol class="listalpha3"><li class="listalpha3">In the <span class="guicharacter">Settings</span> section, configure update source settings and disk subsystem usage optimization.</li><li class="listalpha3">Click the <span class="guicharacter">Connection settings</span> button to configure update source connection settings.</li></ol></li><li class="listbullet2">To configure Software Modules Update task, in the <span class="guicharacter">Settings for application software module updates</span> section choose an action to perform: copy and install critical updates of software modules or only check for them.</li><li class="listbullet2">To configure the Copying Updates task, specify the set of updates and the destination folder in the <span class="guicharacter">Copying updates settings</span> section.</li><li class="listbullet2">To configure the Activation of Application task, in the <span class="guicharacter">Activation Settings</span> section apply the key file that you want to use to activate the application. Select the <span class="guicharacter">Use as additional activation code or key </span>check box if you want to add an activation code or key for renewing the license.</li><li class="listbullet2">To configure the automatic generation of allowing rules for computer control, in the <span class="guicharacter">Settings</span> section specify the settings based on which the list of allowing rules will be created.</li></ul></li><li class="listnumber1">Configure the task schedule in the <span class="guicharacter">Schedule</span> section (you can configure a schedule for all task types except Rollback of Database Update).</li><li class="listnumber1">In the <span class="boldcharacter">Account</span> section specify the account which rights will be used for the task execution. For detailed information regarding configuring settings in this section, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</li><li class="listnumber1">If required, specify the objects to exclude from the task scope in the <span class="boldcharacter">Exclusions from task scope</span> section. For detailed information regarding configuring settings in this section, see the <em class="emphasischaracter">Kaspersky Security Center Help.</em></li><li class="listnumber1">In the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window, click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The newly configured group tasks settings are saved.</p>
+<p class="bodytext">Group tasks settings that are available for configuring are summarized in the table below.</p>
+<p class="tablename">Kaspersky Embedded Systems Security 2.2 group tasks settings</p>
+<p class="spacerfortables"></p>
+<table class="tableintopic" width="764" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="216"><p class="tableheading">Kaspersky Embedded Systems Security 2.2 task types</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="126"><p class="tableheading">Section in the Properties: &lt;Task name&gt; window</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="422"><p class="tableheading">Task settings</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" rowspan="3" width="216"><p class="tablebodytext"><a id="h175498" class="crossreferencetemplate" title="Rule Generator for Applications Launch Control and Rule Generator for Device Control tasks" href="146627.html" target="_self">Automatic rule generation</a> </p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Settings</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">While configuring the Rule Generator for Applications Launch Control task settings you can:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Change the protection scope by adding or removing the paths to folders and specifying file types for which start is allowed by automatically generated rules.</li><li class="tablelistbullet">Take into account currently running applications.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Options</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify actions to perform while creating allowing rules for applications launch control:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet"><span class="guicharacter">Use digital certificate</span></li><li class="tablelistbullet"><span class="guicharacter">Use digital certificate subject and thumbprint</span></li><li class="tablelistbullet"><span class="guicharacter">If the certificate is missing, use</span></li><li class="tablelistbullet"><span class="guicharacter">Use SHA256 hash</span></li><li class="tablelistbullet"><span class="guicharacter">Generate rules for user or group of users</span><p class="tablebodytext">You can configure settings for configuration files with allowing rules lists that Kaspersky Embedded Systems Security 2.2 creates upon the task completion.</p>
+</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled startup of the task.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" rowspan="2" width="216"><p class="tablebodytext"><a id="h175499" class="crossreferencetemplate" title="Activation of the Application task" href="146628.html" target="_self">Activation of Application</a></p>
+<p class="tablebodytext"> </p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Activation Settings</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">To activate the application or to renew expiration date you can add a key.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled startup of the task.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" rowspan="4" width="216"><p class="tablebodytext"><a id="h175500" class="crossreferencetemplate" title="Update tasks" href="146629.html" target="_self">Copying Updates</a></p>
+<p class="tablebodytext"> </p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Update source</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify Kaspersky Security Center Administration Server or Kaspersky Lab update servers as application update source. You can also create a customized list of update sources: by adding custom HTTP and FTP servers or network folders manually and setting them as update sources.</p>
+<p class="tablebodytext">You can specify the usage of Kaspersky Lab update servers, if manually customized servers are not available.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Connection settings</span> window</p>
+<p class="tablelistcontinue"> </p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">In the <span class="guicharacter">Update source connection settings</span> group box you can specify if connection to Kaspersky Lab update servers or any other server should be established via proxy server.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Copying updates settings</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify the set of updates intended for copying.</p>
+<p class="tablebodytext">In the <span class="guicharacter">Folder for local storage of copied updates</span> field, specify a path to a folder, which will be used by Kaspersky Embedded Systems Security 2.2 to store copied updates.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled startup of the task.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" rowspan="3" width="216"><p class="tablebodytext"><a id="h175500_2" class="crossreferencetemplate" title="Update tasks" href="146629.html" target="_self">Database Update</a></p>
+<p class="tablebodytext"> </p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Settings</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify Kaspersky Security Center Administration Server or Kaspersky Lab update servers as application update source in the <span class="guicharacter">Update source</span> group box. You can also create a customized list of update sources: by adding custom HTTP and FTP servers or network folders manually and setting them as update sources.</p>
+<p class="tablebodytext">You can specify the usage of Kaspersky Lab update servers, if manually customized servers are not available.</p>
+<p class="bodytext">In the Disk I/O usage optimization section you can configure the feature that reduces the workload on the disk subsystem:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet"><span class="guicharacter">Lower the load on the disk I/O</span></li><li class="tablelistbullet"><span class="guicharacter">RAM used for optimization (MB)</span></li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Connection settings</span> window</p>
+<p class="tablelistcontinue"> </p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">In the <span class="guicharacter">Update source connection settings</span> group box you can specify if connection to Kaspersky Lab update servers or any other server should be established via proxy server.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled start of the task.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" rowspan="4" width="216"><p class="tablebodytext"><a id="h175500_3" class="crossreferencetemplate" title="Update tasks" href="146629.html" target="_self">Software Modules Update</a></p>
+<p class="tablebodytext"> </p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Update source</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify Kaspersky Security Center Administration Server or Kaspersky Lab update servers as application update source. You can also create a customized list of update sources: by adding custom HTTP and FTP servers or network folders manually and setting them as update sources.</p>
+<p class="tablebodytext">You can specify the usage of Kaspersky Lab update servers, if manually customized servers are not available.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Connection settings</span> window</p>
+<p class="tablelistcontinue"> </p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">In the <span class="guicharacter">Update source connection settings</span> group box you can specify if connection to Kaspersky Lab update servers or any other server should be established via proxy server.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Settings for application software module updates</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify which actions should Kaspersky Embedded Systems Security 2.2 perform when critical software module updates are available or have already been installed, and also if Kaspersky Embedded Systems Security 2.2 should receive information regarding scheduled updates.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled startup of the task.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" rowspan="4" width="216"><p class="tablebodytext"><a id="h152741" class="crossreferencetemplate" title="Creating an On-Demand Scan task" href="152630.html" target="_self">On-Demand Scan</a></p>
+<p class="tablebodytext"> </p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Scan scope</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can specify a Scan scope for On-Demand Scan task and configure security level settings.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">On-demand scan settings</span> window</p>
+<p class="tablelistcontinue"> </p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can select one of predefined security levels, or customize security level manually.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Options</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can activate or deactivate heuristic analyzer usage for On-Demand Scan task, and set analysis level using a slider In the <span class="guicharacter">Heuristic analyzer</span> group box.</p>
+<p class="tablebodytext">In the <span class="guicharacter">Integration with other components</span> group box, you can configure the following settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Apply Trusted Zone for On-Demand Scan tasks.</li><li class="tablelistbullet">Apply KSN usage for On-Demand Scan tasks.</li><li class="tablelistbullet">Set a priority for On-Demand Scan task: perform task in background mode (low priority) or consider task a Critical Areas Scan.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled startup of the task.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="216"><p class="tablebodytext"><a id="h175501" class="crossreferencetemplate" title="Software Modules Integrity Check" href="146632.html" target="_self">Software Modules Integrity Check</a></p>
+</td>
+<td style="border:1px solid #010101;" width="126"><p class="tablebodytext"><span class="guicharacter">Schedule</span></p>
+</td>
+<td style="border:1px solid #010101;" width="422"><p class="tablebodytext">You can configure the settings of scheduled startup of the task.</p>
+</td>
+</tr>
+
+</table>
+<p class="bodytext">For the tasks, such as Rollback of Database Update, you can configure only standard task settings in the <span class="boldcharacter">Notification</span> and <span class="boldcharacter">Exclusions from task scope</span> sections, controlled by Kaspersky Security Center. For detailed information regarding settings configuration of these sections, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</p>
+<table class="relatedtopics belowtopictext" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td>
+<p class="relatedheading">In this section</p><p class="relateditem"><a href="146627.html" target="_self">Rule Generator for Applications Launch Control and Rule Generator for Device Control tasks</a></p><p class="relateditem"><a href="146628.html" target="_self">Activation of the Application task</a></p><p class="relateditem"><a href="146629.html" target="_self">Update tasks</a></p><p class="relateditem"><a href="146632.html" target="_self">Software Modules Integrity Check</a></p></td>
+</tr>
+</table>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

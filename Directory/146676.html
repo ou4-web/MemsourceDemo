@@ -1,0 +1,65 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Creating allowing rules from Kaspersky Security Center events </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h5 id="t146676" class="heading5">Creating allowing rules from Kaspersky Security Center events</h5>
+<p class="procedureheading">To generate allowing rules using the &#8216;Create allowing rules for applications from Kaspersky Security Center events&#8217; option in the Applications Launch Control, do the following:</p>
+<ol class="listnumber1"><li class="listnumber1">In the Kaspersky Security Center Administration Console, expand the <span class="guicharacter">Managed devices</span> node.</li><li class="listnumber1">Expand the administration group whose policy settings you want to configure and select the <span class="guicharacter">Policies</span> tab in the details pane.</li><li class="listnumber1">Select <span class="guicharacter">Properties</span> in the context menu of the policy that you want to configure.<p class="listcontinue1">The <span class="guicharacter">Properties: &lt;Policy name&gt;</span> window opens.</p>
+</li><li class="listnumber1">In the <span class="guicharacter">Local Activity Control</span> section, click the <span class="guicharacter">Settings </span>button<span class="guicharacter"> </span>in the <span class="guicharacter">Applications Launch Control</span> block.</li><li class="listnumber1">On the <span class="guicharacter">General</span> tab, click the <span class="guicharacter">Rules list</span> button.<p class="listcontinue1">The <span class="guicharacter">Applications Launch Control rules</span> window opens.</p>
+</li><li class="listnumber1">Click the <span class="guicharacter">Add</span> button and in the context menu of the button select <span class="guicharacter">Create allowing rules for applications from Kaspersky Security Center events</span>.</li><li class="listnumber1">Select the principle for adding the rules to the list of previously created application launch control rules:<ul class="listbullet2"><li class="listbullet2"><span class="guicharacter">Add to existing rules</span> if you want to add the imported rules to the list of existing ones. Rules with identical settings are duplicated.</li><li class="listbullet2"><span class="guicharacter">Replace existing rules</span> if you want to replace the existing rules with the imported ones.</li><li class="listbullet2"><span class="guicharacter">Merge with existing rules</span> if you want to add the imported rules to the list of existing ones. Rules with identical settings are not added; the rule is added if at least one rule parameter is unique.</li></ul><p class="listcontinue1">The <span class="guicharacter">Applications launch control rules generation</span> window opens.</p>
+</li><li class="listnumber1">Configure the following request settings:<ul class="listbullet2"><li class="listbullet2"><span class="guicharacter">Administration Server address</span></li><li class="listbullet2"><span class="guicharacter">Port</span></li><li class="listbullet2"><span class="guicharacter">User</span></li><li class="listbullet2"><span class="guicharacter">Password</span></li></ul></li><li class="listnumber1">Select the types of events that you want to base the generation task on:<ul class="listbullet2"><li class="listbullet2"><span class="guicharacter">Statistics Only mode: application launch denied</span>.</li><li class="listbullet2"><span class="guicharacter">Application launch denied</span>.</li></ul></li><li class="listnumber1">Select the time period from the <span class="guicharacter">Request events generated within the period</span> drop-down list.</li><li class="listnumber1">Click the <span class="guicharacter">Generate rules</span> button.</li><li class="listnumber1">Click the <span class="guicharacter">Save</span> button in the <span class="guicharacter">Applications Launch Control rules</span> window.<p class="listcontinue1">Rules list in the Applications Launch Control policy will be filled up with new rules generated basing on a system data of the computer with the Kaspersky Security Center Administration Console installed.</p>
+<p class="attentioncontinue1">If the list of application launch control rules is already specified in the policy, Kaspersky Embedded Systems Security 2.2 adds the selected rules from the blocking events to the already specified rules. The rules with same hash are not added, as all rules in a list must be unique.</p>
+</li></ol>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

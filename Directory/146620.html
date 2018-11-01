@@ -1,0 +1,275 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring policy </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t149617" class="heading4">Configuring policy</h4>
+<p class="bodytext">In the <span class="boldcharacter">Properties: &lt;Policy name&gt;</span> window of an existing policy, you can configure general Kaspersky Embedded Systems Security 2.2 settings, quarantine and backup settings, Trusted Zone settings, Real-Time Protection settings, Local activity control settings, the level of detail for task logs, as well as user and administrator notifications about the Kaspersky Embedded Systems Security 2.2 events, access privileges for managing the application and the Kaspersky Security Service, and policy profile application settings.</p>
+<p class="procedureheading">To configure the policy settings:</p>
+<ol class="listnumber1"><li class="listnumber1">Expand the <span class="boldcharacter">Managed devices</span> node in the tree of the Administration Console of Kaspersky Security Center.</li><li class="listnumber1">Expand the administration group, for which you want to configure the associated policy settings, and open the <span class="boldcharacter">Policies</span> child node in the details pane.</li><li class="listnumber1">Select a policy you want to configure and open the <span class="boldcharacter">Properties: &lt;Policy name&gt;</span> window using one of the following ways:<ul class="listbullet2"><li class="listbullet2">By selecting the <span class="boldcharacter">Properties</span> option in the policy context menu.</li><li class="listbullet2">By clicking the <span class="boldcharacter">Configure policy</span> link in the right details pane of the selected policy.</li><li class="listbullet2">By double-clicking the selected policy.</li></ul></li><li class="listnumber1">On the <span class="boldcharacter">General</span> tab in the <span class="boldcharacter">Policy status</span> section, enable or disable the policy. To do so, select one of the options below:<ul class="listbullet2"><li class="listbullet2"><span class="boldcharacter">Active policy</span>, if you want the policy to be applied on all computers within the selected administration group.</li><li class="listbullet2"><span class="boldcharacter">Inactive policy</span>, if you do not want the policy to be applied on all computers within the selected group.</li></ul><p class="attentioncontinue1">The <span class="boldcharacter">Out-of-office policy</span> setting is not available when you manage Kaspersky Embedded Systems Security 2.2.</p>
+</li><li class="listnumber1">In the <span class="guicharacter">Event notification</span>, <span class="guicharacter">Application settings</span>, <span class="guicharacter">Logs and Notifications</span>, <span class="guicharacter">Supplementary</span>, <span class="guicharacter">Revision history</span> sections you can modify the application configuration (see table below).</li><li class="listnumber1">In the <span class="guicharacter">Real-Time Computer Protection</span>, <span class="guicharacter">Local activity control</span>, <span class="guicharacter">Network activity control</span>, and <span class="guicharacter">System Inspection</span> sections, configure the application settings and application launch settings (see the table below).<p class="attentioncontinue1">You can enable or disable the execution of any task on all computers within the administration group by means of a Kaspersky Security Center policy.</p>
+<p class="attentioncontinue1">You can configure the application of policy settings on all network computers for each individual software component.</p>
+</li><li class="listnumber1">Click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The configured settings are applied in the policy.</p>
+<p class="attentionbody">Detailed instructions on how to configure task settings and application functions via the Application Console are provided in the relevant sections of the <em class="emphasischaracter">Kaspersky Embedded Systems Security 2.2 User's Guide</em>.</p>
+<p class="introheading">Sections with Kaspersky Embedded Systems Security 2.2 policy settings</p>
+<p class="bodytext"><span class="guicharacter">General</span></p>
+<p class="tablebodytext">In the <span class="guicharacter">General</span> section, you can configure the following policy settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Indicate policy status.</li><li class="tablelistbullet">Configure the inheritance of settings from parent policies and for child policies.</li></ul><p class="bodytext"><span class="guicharacter">Event notifications</span></p>
+<p class="tablebodytext">In the <span class="guicharacter">Event notifications</span> section, you can configure settings for the following event categories:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet"><em class="emphasischaracter">Critical events</em></li><li class="tablelistbullet"><em class="emphasischaracter">Failure</em></li><li class="tablelistbullet"><em class="emphasischaracter">Warning</em></li><li class="tablelistbullet"><em class="emphasischaracter">Informational event</em><p class="tablebodytext">You can use the <span class="guicharacter">Properties</span> button to configure the following settings for the selected events:</p>
+</li><li class="tablelistbullet">Indicate the storage location and retention period of information about logged events.</li><li class="tablelistbullet">Indicate the method of notification about logged events.</li></ul><p class="bodytext"><span class="guicharacter">Application settings</span></p>
+<p class="tablename">Settings of the Application Settings section</p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="218"><p class="tableheading"><span class="guicharacter">Section</span></p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="433"><p class="tableheading"><span class="guicharacter">Options</span></p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="bodytext"><span class="guicharacter">Scalability and interface</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Scalability and interface</span> section, you can click the <span class="guicharacter">Settings </span>button to configure the following settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Choose whether to configure scalability settings automatically or manually.</li><li class="tablelistbullet">Configure the application icon display settings.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="bodytext"><span class="guicharacter">Security</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Security and reliability</span> section, you can click the <span class="guicharacter">Settings</span> button to configure the following settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Configure the task run settings.</li><li class="tablelistbullet">Specify how the application should behave when the computer is running on UPS power.</li><li class="tablelistbullet">Enable or disable password-protection of application functions.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="tablebodytext"><span class="guicharacter">Connections</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Connections </span>section, you can use the <span class="guicharacter">Settings</span> button to configure the following proxy server settings for connecting with update servers, activation servers, and KSN:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Configure the proxy server settings.</li><li class="tablelistbullet">Specify the proxy server authentication settings.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="tablebodytext"><span class="guicharacter">Run system tasks</span></p>
+<p class="tablebodytext"> </p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Run system tasks</span> subsection, you can use the <span class="guicharacter">Settings</span> button to allow or block the starting of the following system tasks according to a schedule configured on local computers:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">On-Demand Scan task.</li><li class="tablelistbullet">Update and Copying Updates tasks.</li></ul></td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">Supplementary</span></p>
+<p class="tablename">Settings of the Supplementary section</p>
+<table class="tableintopic" width="645" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="216"><p class="tableheading">Section</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="429"><p class="tableheading">Options</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="216"><p class="tablebodytext"><span class="guicharacter">Trusted Zone</span></p>
+</td>
+<td style="border:1px solid #010101;" width="429"><p class="tablebodytext">Click the <span class="guicharacter">Settings</span> button on the <span class="guicharacter">Trusted Zone</span> section to configure the following Trusted Zone application settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Create a list of Trusted Zone exclusions.</li><li class="tablelistbullet">Enable or disable scanning of file backup operations.</li><li class="tablelistbullet">Create a list of trusted processes.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="216"><p class="tablebodytext"><span class="guicharacter">Removable Drives Scan</span></p>
+</td>
+<td style="border:1px solid #010101;" width="429"><p class="tablebodytext">Click the <span class="guicharacter">Settings</span> button to configure scan settings for removable USB drives.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="216"><p class="bodytext"><span class="guicharacter">User access permissions for  application management</span></p>
+</td>
+<td style="border:1px solid #010101;" width="429"><p class="tablebodytext">In this section, you can configure user rights and user group rights to manage Kaspersky Embedded Systems Security 2.2.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="216"><p class="tablebodytext"><span class="guicharacter">User access permissions for Security Service management</span></p>
+</td>
+<td style="border:1px solid #010101;" width="429"><p class="tablebodytext">In this section, you can configure user rights and user group rights to manage the Kaspersky Security Service.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="216"><p class="tablebodytext"><span class="guicharacter">Storages</span></p>
+</td>
+<td style="border:1px solid #010101;" width="429"><p class="tablebodytext">In the <span class="guicharacter">Storages</span> subsection, click the <span class="guicharacter">Settings</span> button to configure the following Quarantine and Backup settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Specify the path to the folder into which you want to place Quarantine or Backup objects.</li><li class="tablelistbullet">Configure the maximum size of Backup and Quarantine and also specify the free space threshold.</li><li class="tablelistbullet">Specify the path to the folder into which you want to place objects restored from Quarantine or Backup.</li><li class="tablelistbullet">Configure transmission of information about Quarantine and Backup objects to Administration Server.<p class="spacerfortables"></p>
+<p class="spacerfortables"></p>
+<p class="spacerfortables"></p>
+</li></ul></td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">Real-Time Computer Protection</span></p>
+<p class="tablename">Settings of the Real-Time Computer Protection section</p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="218"><p class="tableheading">Section</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="433"><p class="tableheading">Options</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="tablebodytext"><span class="guicharacter">Real-Time File Protection</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the<span class="guicharacter"> Real-Time File Protection</span> section, you can click the <span class="guicharacter">Settings</span> button to configure the following task settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Indicate the protection mode.</li><li class="tablelistbullet">Configure use of the Heuristic Analyzer.</li><li class="tablelistbullet">Configure use of the Trusted Zone.</li><li class="tablelistbullet">Indicate the protection scope.</li><li class="tablelistbullet">Set the security level for the selected protection scope: you can select a predefined security level or configure the security settings manually.</li><li class="tablelistbullet">Configure the task launch settings.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="bodytext"><span class="guicharacter">KSN Usage</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">KSN Usage</span> subsection, you can click the <span class="guicharacter">Settings</span> button to configure the following task settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Indicate the actions to perform on KSN untrusted objects.</li><li class="tablelistbullet">Configure data transfer and usage of Kaspersky Security Center as a KSN proxy server.<p class="tablebodytext">Click the <span class="guicharacter">Data handling</span> button to accept or reject the KSN Statement and configure dependable data exchange settings.</p>
+</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="bodytext"><span class="guicharacter">Exploit Prevention</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Exploit Prevention</span> section, you can click the <span class="guicharacter">Settings</span> button to configure the following task settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Select the process memory protection mode.</li><li class="tablelistbullet">Indicate the actions to reduce exploit risks.</li><li class="tablelistbullet">Add to and edit the list of protected processes.</li></ul></td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">Local activity control</span></p>
+<p class="tablename">Settings of the Local activity control section</p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="218"><p class="tableheading">Section</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="433"><p class="tableheading">Options</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="tablebodytext"><span class="guicharacter">Applications Launch Control</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Applications Launch Control</span> section, you can use the <span class="guicharacter">Settings</span> button to configure the following task settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Select the task operating mode.</li><li class="tablelistbullet">Configure settings for controlling subsequent application launches.</li><li class="tablelistbullet">Indicate the scope for application of the Applications Launch Control rules.</li><li class="tablelistbullet">Configure use of KSN.</li><li class="tablelistbullet">Configure the task launch settings.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="218"><p class="bodytext"><span class="guicharacter">Device Control</span></p>
+</td>
+<td style="border:1px solid #010101;" width="433"><p class="tablebodytext">In the <span class="guicharacter">Device Control</span> section, you can click the <span class="guicharacter">Settings </span>button to configure the following task settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Select the task operating mode.</li><li class="tablelistbullet">Configure the task start settings.</li></ul></td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">Network activity control</span></p>
+<p class="tablename">Settings of the Network activity control section</p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="232"><p class="tableheading">Section</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="419"><p class="tableheading">Options</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="232"><p class="bodytext"><span class="guicharacter">Firewall Management</span></p>
+</td>
+<td style="border:1px solid #010101;" width="419"><p class="tablebodytext">In the <span class="guicharacter">Firewall Management</span> section, you can click the <span class="guicharacter">Settings</span> button to configure the following task settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Configure firewall rules.</li><li class="tablelistbullet">Configure the task launch settings.</li></ul></td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">System Inspection</span></p>
+<p class="tablename">Settings of the System Inspection section</p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="232"><p class="tableheading">Section</p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="419"><p class="tableheading">Options</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="232"><p class="tablebodytext"><span class="guicharacter">File Integrity Monitor</span></p>
+</td>
+<td style="border:1px solid #010101;" width="419"><p class="tablebodytext">In the <span class="guicharacter">File Integrity Monitor</span> section you can configure control over the changes in files that can signify a security violation on a protected computer.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="232"><p class="tablebodytext"><span class="guicharacter">Log Inspection</span></p>
+</td>
+<td style="border:1px solid #010101;" width="419"><p class="bodytext">In the<span class="guicharacter"> Log Inspection</span> section you can configure a protected computer integrity control basing on the results of the Windows Event Log analysis.</p>
+</td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">Logs and Notifications</span></p>
+<p class="tablename">Settings of the Logs and Notifications section</p>
+<table class="tableintopic" width="651" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #010101">
+<tr align="left" valign="top">
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="232"><p class="bodytext"><span class="guicharacter">Section</span></p>
+</td>
+<td bgcolor="#C0C0C0" style="border:1px solid #010101;" width="419"><p class="bodytext"><span class="guicharacter">Options</span></p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="232"><p class="tablebodytext"><span class="guicharacter">Task logs</span></p>
+</td>
+<td style="border:1px solid #010101;" width="419"><p class="tablebodytext">In the <span class="guicharacter">Task logs</span> section, you can click the <span class="guicharacter">Settings</span> button to configure the following settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Specify the importance level of the logged events for the selected software components.</li><li class="tablelistbullet">Specify the task log storage settings.</li><li class="tablelistbullet">Specify the SIEM integration with Kaspersky Security Center settings.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="232"><p class="tablebodytext"><span class="guicharacter">Event notifications</span></p>
+</td>
+<td style="border:1px solid #010101;" width="419"><p class="tablebodytext">In the <span class="guicharacter">Event notifications</span> section, you can click the <span class="guicharacter">Settings</span> button to configure the following settings:</p>
+<ul class="tablelistbullet"><li class="tablelistbullet">Specify the user notification settings for the <em class="emphasischaracter">Object detected </em>event.</li><li class="tablelistbullet">Specify the administrator notification settings for any event selected in the event list in the <span class="guicharacter">Notification settings</span> section.</li></ul></td>
+</tr>
+<tr align="left" valign="top">
+<td style="border:1px solid #010101;" width="232"><p class="bodytext"><span class="guicharacter">Interaction with the Administration Server</span></p>
+</td>
+<td style="border:1px solid #010101;" width="419"><p class="tablebodytext">In the <span class="guicharacter">Interaction with the Administration Server</span> section, you can click the <span class="guicharacter">Settings</span> button to select the types of objects that Kaspersky Embedded Systems Security 2.2 will report to Administration Server.</p>
+</td>
+</tr>
+
+</table>
+<p class="bodytext"><span class="guicharacter">Revision history</span></p>
+<p class="bodytext">In the <span class="guicharacter">Revision history</span> section, you can manage revisions: compare with the current revision or other policy, add descriptions of revisions, save revisions to a file or perform a rollback.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

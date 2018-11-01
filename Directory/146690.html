@@ -1,0 +1,71 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> About Firewall rules </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146690" class="heading4">About Firewall rules</h4>
+<p class="bodytext">The Firewall Management task controls filtration of incoming and outgoing network traffic using allowing rules forcibly applied to the Windows Firewall during task execution.</p>
+<p class="bodytext">The first time the task is started Kaspersky Embedded Systems Security 2.2 reads and copies all the incoming network traffic rules specified in the Windows Firewall settings to the Firewall Management task settings. Then the application operates according to the following rules:</p>
+<ul class="listbullet1"><li class="listbullet1">If a new rule is created in the Windows Firewall settings (manually or automatically during a new application installation), Kaspersky Embedded Systems Security 2.2 deletes the rule.</li><li class="listbullet1">If an existing rule is deleted from the Windows Firewall settings, Kaspersky Embedded Systems Security 2.2 restores the rule.</li><li class="listbullet1">If the parameters of an existing rule are changed in the Windows Firewall settings, Kaspersky Embedded Systems Security 2.2 rolls back the changes.</li><li class="listbullet1">If a new rule is created in the Firewall Management settings, Kaspersky Embedded Systems Security 2.2 forcibly applies the rule to Windows Firewall.</li><li class="listbullet1">If an existing rule is deleted from the Firewall Management settings, Kaspersky Embedded Systems Security 2.2 forcibly deletes the rule from the Windows Firewall settings.</li></ul><p class="warningbody">Kaspersky Embedded Systems Security 2.2 does not work with blocking rules or rules controlling outgoing network traffic. Upon start of the Firewall Management task, Kaspersky Embedded Systems Security 2.2 deletes all such rules from the Windows Firewall settings.</p>
+<p class="bodytext">You can set, delete and edit filtration rules for incoming network traffic.</p>
+<p class="attentionbody">You cannot specify a new rule to control outgoing network traffic in the Firewall Management task settings. All Firewall rules specified in Kaspersky Embedded Systems Security 2.2 control only incoming network traffic.</p>
+<p class="bodytext">You can manage the following types of Firewall rules:</p>
+<ul class="listbullet1"><li class="listbullet1">Application rules.</li><li class="listbullet1">Port rules.</li></ul><p class="introheading">Application rules</p>
+<p class="bodytext">This type of rule allows targeted network connections for specified applications. The triggering criterion for these rules is based on a path to an executable file.</p>
+<p class="bodytext">You can manage application rules:</p>
+<ul class="listbullet1"><li class="listbullet1">Add new rules.</li><li class="listbullet1">Remove existing rules.</li><li class="listbullet1">Enable or disable specified rules.</li><li class="listbullet1">Edit the parameters of the specified rules: specify the rule name, path to the executable file, and the rule usage scope.</li></ul><p class="introheading">Port rules</p>
+<p class="bodytext">This type of rule allows network connections for specified ports and protocols (TCP / UDP). The triggering criteria for these rules are based on the port number and protocol type.</p>
+<p class="bodytext">You can manage port rules:</p>
+<ul class="listbullet1"><li class="listbullet1">Add new rules.</li><li class="listbullet1">Remove existing rules.</li><li class="listbullet1">Enable or disable specified rules.</li><li class="listbullet1">Edit the parameters of the specified rules: set the rule name, port number, protocol type, and scope for application of the rule.</li></ul><p class="attentionbody">Port rules imply a broader scope than application rules. By allowing connections based on port rules, you lower the security level of the protected computer.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

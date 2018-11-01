@@ -1,0 +1,65 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Assigning the Critical Areas Scan task status to an On-Demand Scan task </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146631" class="heading4">Assigning the Critical Areas Scan task status to an On-Demand Scan task</h4>
+<p class="bodytext">By default, Kaspersky Security Center assigns the <em class="emphasischaracter">Warning</em> status to the computer if the Critical Areas Scan task is performed less often than specified by the <span class="guicharacter">Critical areas scan has not been performed for a long time</span> event generation threshold setting of Kaspersky Embedded Systems Security 2.2.</p>
+<p class="procedureheading">To configure scanning of all computers in a single administration group, take the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">Create a group On-Demand Scan task. </li><li class="listnumber1">In the <span class="guicharacter">Options</span> window of the task wizard, select the <span class="guicharacter">Consider task as critical areas scan</span> check box. The task settings specified (the scan scope and security settings) will be applied to all computers in the group. Configure the task schedule.<p class="attentioncontinue1">You can select the <span class="guicharacter">Consider task as critical areas scan</span> check box both when creating the On-Demand Scan task for a group of computers or a set of computers and later in the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window.</p>
+</li><li class="listnumber1">Using a new or existing policy disable the <a id="h149626" class="crossreferencetemplate" title="Configuring scheduled start of local system tasks" href="146621.html" target="_self">scheduled start of system scan tasks</a> on the group computers.</li></ol><p class="bodytext">Kaspersky Security Center Administration Server will then evaluate the security status of the protected computer and will notify you about it based on the results of the last run of the task with the Critical Areas Scan task status, rather than based on the results of the <em class="emphasischaracter">Critical Areas Scan</em> system task.</p>
+<p class="bodytext">You can assign the <em class="emphasischaracter">Critical Areas Scan</em> task status both to group On-Demand Scan tasks and to tasks for sets of computers.</p>
+<p class="bodytext">The Application Console can be used to view whether the On-Demand Scan task is a Critical Areas Scan task.</p>
+<p class="warningbody">In the Application Console, the <span class="guicharacter">Consider task as critical areas scan</span> check box is displayed in task properties but cannot be edited.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

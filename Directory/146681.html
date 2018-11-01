@@ -1,0 +1,72 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> About generating Device Control rules for all computers via Kaspersky Security Center </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146681" class="heading4">About generating Device Control rules for all computers via Kaspersky Security Center</h4>
+<p class="bodytext">You can create lists of Device Control rules using Kaspersky Security Center tasks for all computers and groups of computers on the corporate network at once.</p>
+<p class="bodytext">You can create lists of Device Control rules on the side of Kaspersky Security Center in two ways:</p>
+<ul class="listbullet1"><li class="listbullet1">Using the Rule Generator for Device Control group task.<p class="listcontinue1">According to this scenario the group task generates rules lists basing on each computer system data about all mass storage devices that have ever been connected to protected computers. The task also allows for all mass storage devices that a connected at the moment of task running. Upon the group task completion Kaspersky Embedded Systems Security 2.2 generates allowing rules lists for all mass storage devices registered in the network and saves these lists in an XML file in a specified folder. Then you can manually import generated rules in the Device Control policy settings. Unlike a task on a local computer, the policy does not allow configuring the automatic addition of the created rules to the list of Device Control rules when the Rule Generator for Applications Launch Control group task is completed.</p>
+<p class="listcontinue1">This scenario is recommended to generate allowing rules list before the first Device Control policy start in the mode of active rules application.</p>
+<p class="spacer"></p>
+<p class="attentioncontinue1">Before using the Device Control policy in the network, make certain that all protected computers have access to a shared network folder. If the organization&#8217;s policy does not provide for the use of a shared network folder in the network, it is recommended to start the Automatic Rules Generators task for computer control rules on the test computer group or on a template machine.</p>
+</li><li class="listbullet1">Based on a report on task events generated in Kaspersky Security Center for the Device Control task in the <span class="guicharacter">Statistics only</span> mode.<p class="listcontinue1">According to this scenario Kaspersky Embedded Systems Security 2.2 does not restrict mass storage devices connections but logs information about all devices connections and mass storages registration on all network computers during the Device Control task running in the <span class="guicharacter">Statistics only</span> mode; information logged may be found in the Kaspersky Security Center <span class="guicharacter">Events</span> section. Kaspersky Security Center generates unified list of mass storages restricting and allowing events, based on the task log.</p>
+<p class="listcontinue1">You should configure the task running period the way that all the mass storage devices connections would be performed during the set period. Then as rules are added to the Device Control task you can import data on devices connections from the saved Kaspersky Security Center event report file (in TXT format) and generate Device Control allowing rules for such devices basing on this data. The type of events, that an imported log is based on, does not influence the generated rules type; only allowing rules are generated.</p>
+<p class="listcontinue1">This scenario is recommended to add allowing rules for a large number of new mass storages, as well as to generate rules for MTP-connected trusted mobile devices.</p>
+</li><li class="listbullet1">Based on system data about connected mass storage devices (using the Generate rules based on system data option in the Device Control policy settings).<p class="listcontinue1">According to this scenario Kaspersky Embedded Systems Security 2.2 generates allowing rules for mass storages that have ever been connected or are currently connected to a computer with Kaspersky Security Center installed.</p>
+<p class="listcontinue1">This scenario is recommended to generate rules for a little number of new mass storage devices that you want to trust on all computers in the network.</p>
+</li><li class="listbullet1">Based on data about the currently connected devices (using the <span class="guicharacter">Generate rules based on connected devices</span>).<p class="listcontinue1">In this scenario, Kaspersky Embedded Systems Security 2.2 generates allowing rules only for currently connected devices. You can select one or more devices for which you want to generate allowing rules.</p>
+<p class="attentioncontinue1">Kaspersky Embedded Systems Security 2.2 does not get access to system data about mobile devices connected via MTP. You cannot generate allowing rules for trusted MTP-connected mobile devices using scenarios for rues list filling on the base of system data about all connected devices.</p>
+</li></ul>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> About Real-Time File Protection task </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146659" class="heading4">About Real-Time File Protection task</h4>
+<p class="bodytext">When the Real-Time File Protection task is running, Kaspersky Embedded Systems Security 2.2 scans the following protected computer objects when they are accessed:</p>
+<ul class="listbullet1"><li class="listbullet1">Files.</li><li class="listbullet1">Alternate file system streams (NTFS streams).</li><li class="listbullet1">Master boot record and boot sectors on the local hard drives and external devices.</li><li class="listbullet1">Windows Server 2016 and Windows Server 2019 container files. </li></ul><p class="bodytext">When any application writes a file to a computer or reads a file from it, Kaspersky Embedded Systems Security 2.2 intercepts this file, scans it for threats, and, if a threat is detected, performs a default action or an action you have specified: tries to disinfect it, places it in Quarantine, or deletes it. Kaspersky Embedded Systems Security 2.2 returns the file to the application if it is not infected or if it has been successfully disinfected. </p>
+<p class="bodytext">Kaspersky Embedded Systems Security 2.2 intercepts file operations, executed in Windows Server 2016 and Windows Server 2019 containers.</p>
+<p class="bodytext"><em class="emphasischaracter">A container</em> is an isolated environment, which allows applications to run without direct interaction with the operating system. If container is located in task the task protection scope, Kaspersky Embedded Systems Security 2.2 scans container files, which are being accessed by users, for computer threats. When a threat is detected, the application attempts to disinfect the container. If the attempt is successful, the container continues to work; if disinfection fails, the container is shut down.</p>
+<p class="bodytext">Kaspersky Embedded Systems Security 2.2 also detects malware for processes running under Windows Subsystem for Linux&reg;. For such processes, the Real-Time File Protection task applies action defined by the current configuration. </p>
+<p class="bodytext"></p>
+<p class="bodytext"></p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

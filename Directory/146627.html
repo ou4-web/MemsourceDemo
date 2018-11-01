@@ -1,0 +1,77 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Rule Generator for Applications Launch Control and Rule Generator for Device Control tasks </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+<script language="javascript" type="text/javascript" src="dhtml_popup.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146627" class="heading4">Rule Generator for Applications Launch Control and Rule Generator for Device Control tasks</h4>
+<p class="procedureheading">To configure the Rule Generator for Device Control task or the Rule Generator for Applications Launch Control task, do the following:</p>
+<ol class="listnumber1"><li class="listnumber1">In the Kaspersky Security Center Administration Console tree expand the <span class="boldcharacter">Managed devices</span> node and select the administration group for which you want to configure the application tasks.</li><li class="listnumber1">On the details pane of a selected administration group, open <span class="boldcharacter">Tasks</span> tab.</li><li class="listnumber1">In the list of previously created group tasks, select a task you want to configure. Open the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window in one of the following ways:<ul class="listbullet2"><li class="listbullet2">Double-click the name of the task in the list of created tasks.</li><li class="listbullet2">Select the name of the task in the list of created tasks and click <span class="boldcharacter">Configure task</span> link.</li><li class="listbullet2">Open the context menu of the task name in the list of created tasks and select the <span class="boldcharacter">Properties</span> item.</li></ul></li><li class="listnumber1">In the <span class="boldcharacter">Notification</span> section, configure the task event notification settings. </li><li class="listnumber1">For detailed information regarding configuring settings in this section, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</li><li class="listnumber1">In the <span class="guicharacter">Settings</span> section, you can configure the following settings:<ul class="listbullet2"><li class="listbullet2">Change the protection scope by adding or removing the paths to folders and specifying file types for which launch is allowed by automatically generated rules.</li><li class="listbullet2">Take into account currently running applications.</li></ul></li><li class="listnumber1">In the <span class="guicharacter">Settings</span> section, you can specify actions to perform while creating allowing rules for applications launch control:<ul class="listbullet2"><li class="listbullet2"><span class="guicharacter"><a id="h149117" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149117','h149117')" target="_self">Use digital certificate</a></span><div id="d149117" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149117')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">If this option is selected, the presence of a digital certificate is specified as the rule-triggering criterion in the settings of the newly generated allowing rules for Applications Launch Control. The application will now allow start of programs launched using files with a digital certificate. This option is recommended if you want to allow the start of any applications that are trusted in the operating system.</p>
+</div></li><li class="listbullet2"><span class="guicharacter"><a id="h149118" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149118','h149118')" target="_self">Use digital certificate subject and thumbprint</a></span><div id="d149118" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149118')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The check box enables or disables the use of the subject and thumbprint of the file's digital certificate as the criterion for triggering the allowing rules for Applications Launch Control. Selecting this check box lets you specify stricter digital certificate verification conditions.</p>
+<p class="settingdescr">If this check box is selected, the subject and thumbprint values of the digital certificate of files for which the rules are generated are set as the criterion for triggering the allowing rules for Applications Launch Control. Kaspersky Embedded Systems Security 2.2 will allow applications that are launched using files with a thumbprint and a digital certificate specified.</p>
+<p class="settingdescr">Selecting this check box strongly restricts the triggering of allowing rules based on a digital certificate because a thumbprint is a unique identifier of a digital certificate and cannot be forged.</p>
+<p class="settingdescr">If this check box is cleared, the existence of any digital certificate that is trusted in the operating system is set as the criterion for triggering the allowing rules for Applications Launch Control.</p>
+<p class="settingdescr">This check box is active if the <span class="guicharacter">Use digital certificate </span>option is selected.</p>
+<p class="settingdescr">The check box is selected by default.</p>
+</div></li><li class="listbullet2"><span class="guicharacter"><a id="h149119" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149119','h149119')" target="_self">If the certificate is missing, use</a></span><div id="d149119" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149119')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">Drop down list that allows you to select the criterion for triggering the allowing rules for Applications Launch Control if the file, which is used to generate the rule, has no digital certificate.</p>
+</div><ul class="listbullet3"><li class="listbullet3"><span class="guicharacter">SHA256 hash</span>. The checksum value of the file, which is used to generate the rule, is set as the criterion for triggering the allowing rule for Applications Launch Control. The application will allow start of programs launched using files with the specified checksum.</li><li class="listbullet3"><span class="guicharacter">Path to file</span>. The path to the file, which is used to generate the rule, is set as the criterion for triggering the allowing rule for Applications Launch Control. The application will now allow start of programs launched using files located in the folders specified tab in the Create allowing rules for applications from the folders table.</li></ul></li><li class="listbullet2"><span class="guicharacter"><a id="h149120" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149120','h149120')" target="_self">Use SHA256 hash</a></span><div id="d149120" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149120')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">If this option is selected, the checksum value of the file, which is used to generate the rule, is specified as the rule-triggering criterion in the settings of the newly generated allowing rules for Applications Launch Control. The application will allow start of programs launched using files with the specified checksum value.</p>
+<p class="settingdescr">This option is recommended for cases when the generated rules are required to meet ultimate security level: SHA256 checksum may be applied as a unique file ID. The usage of SHA256 checksum as a rule triggering criterion constricts the rule usage scope up to one file.</p>
+<p class="settingdescr">This option is selected by default.</p>
+</div></li><li class="listbullet2"><span class="guicharacter"><a id="h149121" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149121','h149121')" target="_self">Generate rules for user or group of users</a></span>.<div id="d149121" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149121')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">Field that displays a user and / or group of users. The application will monitor any applications run by the specified user and / or group of users.</p>
+<p class="settingdescr">The default selection is <span class="guicharacter">Everyone</span>.</p>
+</div></li></ul><p class="listcontinue1">You can configure settings for configuration files with allowing rules lists that Kaspersky Embedded Systems Security 2.2 creates upon the task completion.</p>
+</li><li class="listnumber1">Configure the task schedule in the <span class="guicharacter">Schedule</span> section (you can configure a schedule for all task types except Rollback of Database Update).</li><li class="listnumber1">In the <span class="boldcharacter">Account</span> section specify the account which rights will be used for the task execution. </li><li class="listnumber1">If required, specify the objects to exclude from the task scope in the <span class="guicharacter">Exclusions</span> from task scope section. <p class="attentioncontinue1">For detailed information regarding configuring settings in these sections, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</p>
+</li><li class="listnumber1">In the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window, click <span class="guicharacter">OK</span>.<p class="listcontinue1">The newly configured group tasks settings are saved.</p>
+</li></ol>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

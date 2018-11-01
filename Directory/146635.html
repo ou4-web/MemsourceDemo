@@ -1,0 +1,65 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring the task start schedule settings </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146635" class="heading4">Configuring the task start schedule settings</h4>
+<p class="bodytext">You can configure the start schedule for local system and custom tasks in the Application Console. You cannot configure the start schedule for group tasks.</p>
+<p class="procedureheading">To configure task start schedule settings, do the following:</p>
+<ol class="listnumber1"><li class="listnumber1">In the Kaspersky Security Center Administration Console tree, expand the <span class="boldcharacter">Managed devices</span> node and do the following:<ul class="listbullet2"><li class="listbullet2">If you want to configure policy settings, in the computer group select <span class="boldcharacter">Policy &gt; &lt;Policy name&gt; &gt; &lt;Section&gt; &gt; Configure &gt; Task Management</span>.</li><li class="listbullet2">If you want to configure application settings for a single computer using Kaspersky Security Center, open the <span class="boldcharacter"><a id="h149507" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self">Task Settings</a></span> window in Kaspersky Security Center.<p class="listcontinue2">The <span class="guicharacter">Settings</span> window opens.</p>
+</li></ul></li><li class="listnumber1">In the window that opens, on the <span class="guicharacter">Schedule</span> tab, select the <span class="guicharacter">Run by schedule </span>check box.<p class="warningcontinue1">Fields with the schedule settings for the On-Demand Scan and Update tasks are unavailable if their scheduled start is blocked by a policy of Kaspersky Security Center.</p>
+</li><li class="listnumber1">Configure schedule settings in accordance with your requirements. To do this, perform the following actions:<ol class="listalpha2"><li class="listalpha2">In the <span class="guicharacter">Frequency</span> list, select one of the following values:<ul class="listbullet3"><li class="listbullet3"><span class="guicharacter">Hourly</span>, if you want the task to run at intervals of a specified number of hours; specify the number of hours in the <span class="boldcharacter">Every &lt;number&gt; hour(s)</span> field.</li><li class="listbullet3"><span class="guicharacter">Daily</span>, if you want the task to run at intervals of a specified number of days; specify the number of days in the <span class="boldcharacter">Every &lt;number&gt; day(s)</span> field.</li><li class="listbullet3"><span class="guicharacter">Weekly</span>, if you want the task to run at intervals of a specified number of weeks; specify the number of weeks in the <span class="boldcharacter">Every &lt;number&gt; week(s)</span> field. Specify the days of the week on which the task will be started (by default the task runs on Mondays).</li><li class="listbullet3"><span class="guicharacter">At application launch</span>, if you want the task to run every time Kaspersky Embedded Systems Security 2.2 starts.</li><li class="listbullet3"><span class="guicharacter">After application database update</span>, if you want the task to run after every update of the application databases.</li></ul></li><li class="listalpha2">Specify the time for the first task start in the <span class="guicharacter">Start time</span> field.</li><li class="listalpha2">In the <span class="guicharacter">Start date</span> field, specify the date from which the schedule applies.<p class="warningcontinue2">After you have specified the task start frequency, the time of the first task start, and the date from which the schedule applies, information about the estimated time for the next task start will appear in the top part of the window in the <span class="guicharacter">Next start</span> field. Updated information about the estimated time of the next task start will be displayed each time you open the <span class="guicharacter">Task</span> settings window of the <span class="guicharacter">Schedule</span> tab.</p>
+<p class="warningcontinue2">The <span class="guicharacter">Blocked by policy</span> value is displayed in the <span class="guicharacter">Next start</span> field if the active policy settings of Kaspersky Security Center prohibit start of <a id="h149626" class="crossreferencetemplate" title="Configuring scheduled start of local system tasks" href="146621.html" target="_self">scheduled system tasks</a>.</p>
+</li></ol></li><li class="listnumber1">Use the <span class="guicharacter">Advanced</span> tab to configure the following schedule settings in accordance with your requirements.<ul class="listbullet2"><li class="listbullet2">In the <span class="guicharacter">Task stop settings</span> section:<ol class="listalpha3"><li class="listalpha3">Select the <span class="guicharacter">Duration</span> check box and enter the required number of hours and minutes in the fields to the right to specify the maximum duration of the task execution.</li><li class="listalpha3">Select the <span class="guicharacter">Pause from</span> check box and enter the start and end values of the time interval in the fields to the right to specify a time interval under 24 hours during which task execution will be paused.</li></ol></li><li class="listbullet2">In the <span class="guicharacter">Advanced settings</span> section:<ol class="listalpha3"><li class="listalpha3">Select the <span class="guicharacter">Cancel schedule from</span> check box and specify the date from which the schedule will cease to operate.</li><li class="listalpha3">Select the <span class="guicharacter">Run skipped tasks</span> check box to enable the start of skipped tasks.</li><li class="listalpha3">Select the <span class="guicharacter">Randomize the task start within interval</span> of check box and specify a value in minutes.</li></ol></li></ul></li><li class="listnumber1">Click the <span class="guicharacter">Apply</span> button to save the task start settings.</li></ol>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

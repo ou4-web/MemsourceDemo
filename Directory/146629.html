@@ -1,0 +1,69 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Update tasks </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+<script language="javascript" type="text/javascript" src="dhtml_popup.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146629" class="heading4">Update tasks</h4>
+<p class="bodytext">To configure the Copying Updates, Database Update, or Software Modules Update tasks, do the following:</p>
+<ol class="listnumber1"><li class="listnumber1">In the Kaspersky Security Center Administration Console tree expand the <span class="boldcharacter">Managed devices</span> node and select the administration group for which you want to configure the application tasks.</li><li class="listnumber1">On the details pane of a selected administration group, open <span class="boldcharacter">Tasks</span> tab.</li><li class="listnumber1">In the list of previously created group tasks, select a task you want to configure. Open the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window in one of the following ways:<ul class="listbullet2"><li class="listbullet2">Double-click the name of the task in the list of created tasks.</li><li class="listbullet2">Select the name of the task in the list of created tasks and click <span class="boldcharacter">Configure task</span> link.</li><li class="listbullet2">Open the context menu of the task name in the list of created tasks and select the <span class="boldcharacter">Properties</span> item.</li></ul></li><li class="listnumber1">In the <span class="boldcharacter">Notification</span> section, configure the task event notification settings. <p class="attentioncontinue1">For detailed information regarding configuring settings in this section, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</p>
+</li><li class="listnumber1">Depending on the type of configured task, do one of the following actions:<ul class="listbullet2"><li class="listbullet2">In the <span class="guicharacter">Update source</span> section, configure update source settings and disk subsystem usage optimization.<ol class="listalpha3"><li class="listalpha3">You can specify Kaspersky Security Center Administration Server or Kaspersky Lab update servers as application update source in the <span class="guicharacter">Update source</span> section. You can also create a customized list of update sources: by adding custom HTTP and FTP servers or network folders manually and setting them as update sources.<p class="listcontinue3">You can specify the usage of Kaspersky Lab update servers, if manually customized servers are not available.</p>
+</li><li class="listalpha3">In the <span class="guicharacter">Disk I/O usage optimization</span> section for the Database Update task, you can configure the feature that reduces the workload on the disk subsystem:<ul class="listbullet4"><li class="listbullet4"><span class="guicharacter"><a id="h149631" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149631','h149631')" target="_self">Lower the load on the disk I/O</a></span><div id="d149631" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149631')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">This check box enables or disables the feature of the disk subsystem optimization through storing update files on a virtual drive in the RAM.</p>
+<p class="settingdescr">If the check box is selected, this function is enabled.</p>
+<p class="settingdescr">The check box is cleared by default.</p>
+</div></li><li class="listbullet4"><span class="guicharacter"><a id="h149630" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149630','h149630')" target="_self">RAM used for optimization (MB)</a></span><div id="d149630" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149630')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The size of the RAM (in MB) that the application uses for storing update files. The default RAM size is 512 MB. The minimum RAM size is 400 MB.</p>
+</div></li></ul></li><li class="listalpha3">Click the <span class="guicharacter">Connection settings</span> button, and in the <span class="guicharacter">Connection settings</span> window that opens, configure the use of a proxy server for connecting to Kaspersky Lab update servers and other servers.</li></ol></li><li class="listbullet2">In the <span class="guicharacter">Settings for application software module updates</span> section for the Software Modules Update task, you can specify which actions Kaspersky Embedded Systems Security 2.2 should perform when critical software module updates are available or information about planned updates is available, and you can also specify which actions Kaspersky Embedded Systems Security 2.2 should perform when critical updates are installed.</li><li class="listbullet2">Specify the set of updates and the destination folder in the <span class="guicharacter">Copying updates settings</span> section for the <span class="guicharacter">Copying Updates</span> task.</li></ul></li><li class="listnumber1">Configure the task schedule in the <span class="guicharacter">Schedule</span> section (you can configure a schedule for all task types except Rollback of Database Update).</li><li class="listnumber1">In the <span class="boldcharacter">Account</span> section specify the account which rights will be used for the task execution. <p class="attentioncontinue1">For detailed information regarding configuring settings in these sections, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</p>
+</li><li class="listnumber1">In the <span class="boldcharacter">Properties: &lt;Task name&gt;</span> window, click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The newly configured group tasks settings are saved</p>
+<p class="bodytext">For the Rollback of Database Update task, you can configure only standard task settings controlled by Kaspersky Security Center in the <span class="guicharacter">Notifications</span> and <span class="guicharacter">Exclusions</span> from task scope sections. For detailed information regarding configuring the settings in these sections, see the <em class="emphasischaracter">Kaspersky Security Center Help</em>.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>

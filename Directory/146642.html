@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<title> Configuring connection settings using Kaspersky Security Center </title>
+	<link rel="stylesheet" type="text/css" href="css.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet_chm.css" />
+	<script language="JavaScript" src="script_KL.js"></script>
+<script language="javascript" type="text/javascript" src="dhtml_popup.js"></script>
+</head>
+
+<body id="content">
+	<table class="w100 h100">
+		<tr>
+			<td class="header">
+				<table class="w100" height="30px">
+					<tr>
+						<td></td>
+						<td class="links links-icon">
+							<a href="javascript:printWindow();" class="bt-print" title="Print this help topic" alt="Print">Print</a>
+							<a href="https://support.kaspersky.com" class="bt-support" title="Go to the Kaspersky Lab Technical Support website" alt="Technical Support" target="blank">Technical Support</a>
+							<a href="https://support.kaspersky.com/docloc" class="bt-feedback" title="Leave feedback about this Help" alt="Help Feedback" target="blank">Help Feedback</a>
+							<a href="https://help.kaspersky.com" class="bt-pdf" target="blank">Administrator's Guide</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="h100 t" style="padding:15px 15px 0">
+				<h4 id="t146642" class="heading4">Configuring connection settings using Kaspersky Security Center</h4>
+<p class="attentionbody"> The process of configuring the settings of Kaspersky Embedded Systems Security 2.2 functional components in Kaspersky Security Center is similar to local configuration of the settings of these components in the Application Console. Detailed instructions on how to configure task settings and application functions are provided in the relevant sections of the <em class="emphasischaracter">Kaspersky Embedded Systems Security 2.2 User's Guide</em>.</p>
+<p class="bodytext">The configured connection settings are used to connect Kaspersky Embedded Systems Security 2.2 to update and activation servers and during integration of applications with KSN services.</p>
+<p class="procedureheading">To configure the connection settings take the following steps:</p>
+<ol class="listnumber1"><li class="listnumber1">Expand the <span class="boldcharacter">Managed devices</span> node in the Kaspersky Security Center Administration Console tree and select the administration group for which you want to configure application settings.</li><li class="listnumber1">Perform one of the following actions in the details pane of the selected administration group:<ul class="listbullet2"><li class="listbullet2">To configure application settings for a group of computers, select the <span class="boldcharacter">Policies</span> tab and open the <span class="boldcharacter"><a id="h149663" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">Properties: &lt;Policy name&gt;</a></span><span class="guicharacter"><a id="h149663_2" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self"> </a></span><a id="h149663_3" class="crossreferencetemplate" title="Configuring policy" href="146620.html" target="_self">window</a>.</li><li class="listbullet2">To configure the application for a single computer, select the <span class="boldcharacter">Devices</span> tab and open the <span class="boldcharacter"><a id="h149507" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self">Application settings</a></span><a id="h149507_2" class="crossreferencetemplate" title="Configuring local tasks in Application settings window of Kaspersky Security Center" href="146625.html" target="_self"> window</a>.<p class="attentioncontinue2">If a device is being managed by an active Kaspersky Security Center policy and this policy blocks changes to the application settings, these settings cannot be edited in the <span class="boldcharacter">Application settings</span> window.</p>
+</li></ul></li><li class="listnumber1">In the <span class="guicharacter">Application settings</span> section click the <span class="guicharacter">Settings </span>button in the <span class="guicharacter">Proxy server</span> block.<p class="listcontinue1">The <span class="guicharacter">Connection settings</span> window opens.</p>
+</li><li class="listnumber1">In the <span class="guicharacter">Connection settings</span> window, configure the following settings:<ul class="listbullet2"><li class="listbullet2">In the <span class="guicharacter">Proxy server settings</span> section, select the proxy server usage settings:<ul class="listbullet3"><li class="listbullet3"><span class="guicharacter"><a id="h149679" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149679','h149679')" target="_self">Do not use proxy server</a></span>.<div id="d149679" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149679')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">If this option is selected, Kaspersky Embedded Systems Security 2.2 connects to KSN services directly, without using any proxy server.</p>
+</div></li><li class="listbullet3"><span class="guicharacter"><a id="h149680" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149680','h149680')" target="_self">Automatically detect proxy server settings</a></span>.<div id="d149680" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149680')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">If this option is selected, Kaspersky Embedded Systems Security 2.2 automatically defines the settings for connection to KSN services using Web Proxy Auto-Discovery Protocol (WPAD). </p>
+<p class="settingdescr">This option is selected by default.</p>
+</div></li><li class="listbullet3"><span class="guicharacter"><a id="h149681" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149681','h149681')" target="_self">Use specified proxy server settings</a></span>.<div id="d149681" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149681')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">If this option is selected, Kaspersky Embedded Systems Security 2.2 connects to KSN using proxy server settings specified manually.</p>
+</div></li><li class="listbullet3">IP address or the symbol name of the proxy server and the port number.</li><li class="listbullet3"><span class="guicharacter"><a id="h149682" class="popuponclickcontexthelptemplate" title="" href="javascript:void(0)" onclick="togglePopup('149682','h149682')" target="_self">Do not use proxy server for local addresses</a></span>.<div id="d149682" class="popuponclick" style="display:none"><a href="javascript:hidePopup('149682')"><img src="close.gif" align="right" alt="Close" border="0"></a><p class="settingdescr">The check box enables or disables the use of a proxy server when accessing computers located in the same network as the computer with Kaspersky Embedded Systems Security 2.2 installed.</p>
+<p class="settingdescr">If this check box is selected, computers are accessed directly from the network, which hosts the computer with Kaspersky Embedded Systems Security 2.2 installed. No proxy server is used.</p>
+<p class="settingdescr">If the check box is cleared, the proxy server is applied to connect to local computers.</p>
+<p class="settingdescr">The check box is selected by default.</p>
+</div></li></ul></li><li class="listbullet2">In the <span class="guicharacter">Proxy server authentication settings</span> section, specify the authentication settings:<ul class="listbullet3"><li class="listbullet3">Select the authentication settings in the drop-down list.<ul class="listbullet4"><li class="listbullet4"><span class="guicharacter">Do not use authentication</span> &#8211; authentication is not performed. This mode is selected by default. </li><li class="listbullet4"><span class="guicharacter">Use NTLM authentication</span> &#8211; authentication is performed using the NTLM network authentication protocol developed by Microsoft. </li><li class="listbullet4"><span class="guicharacter">Use NTLM authentication with user name and password</span> &#8211; authentication is performed using the name and password through the NTLM network authentication protocol developed by Microsoft. </li><li class="listbullet4"><span class="guicharacter">Apply user name and password</span> &#8211; authentication is performed using the user name and password.</li></ul></li><li class="listbullet3">Enter user name and password, if needed.</li></ul></li><li class="listbullet2">In the <span class="guicharacter">Licensing</span> block clear or select the <span class="guicharacter">Use Kaspersky Security Center as a proxy server when activating the application</span>.</li></ul></li><li class="listnumber1">Click <span class="guicharacter">OK</span>.</li></ol><p class="bodytextindent">The configured connection settings are saved.</p>
+
+
+			</td>
+		</tr>
+		<tr>
+			<td class="links links-icon" style="padding:15px 15px 10px">
+				<a href="#" class="bt-home" nowrap>Page top</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer wrap">
+				<div class="fl" style="padding-left:15px">
+					<a href="https://www.kaspersky.com" title="Go to the Kaspersky Lab website" alt="Kaspersky Lab Logo" target="blank"><img src="who-bottom-logo.png" alt=""></a>
+				</div>
+				<div class="fl copy">
+					&copy; 2018 AO Kaspersky Lab. All Rights Reserved.<br/>
+					<div class="fl b-menu">
+					<a href="https://help.kaspersky.com" target="blank" title="Go to Kaspersky Lab Online Help website">Kaspersky Online Help</a>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>
