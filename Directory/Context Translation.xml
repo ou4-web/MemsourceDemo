@@ -8,7 +8,7 @@
 </items>
 
 <items>
-	<unique_id>job_edit</unique_id>
+	<unique_id>job_edit_alsomodified</unique_id>
 	<string>Edit</string>
 	<maxlength>2</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_edit.png"></img></td></tr></table>]]></context>
