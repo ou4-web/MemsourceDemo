@@ -1,7 +1,7 @@
 
 <application>
 <items>
-	<unique_id>job_details</unique_id>
+	<unique_id>job_details_modified</unique_id>
 	<string>Job Details</string>
 	<maxlength>20</maxlength>
    	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_details.png"></img></td></tr></table>]]></context>
@@ -10,7 +10,7 @@
 <items>
 	<unique_id>job_edit</unique_id>
 	<string>Edit</string>
-	<maxlength>20</maxlength>
+	<maxlength>2</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_edit.png"></img></td></tr></table>]]></context>
 </items>
 
@@ -23,7 +23,7 @@
 
 <items>
 	<unique_id>job_donwload_completed</unique_id>
-	<string>Download Completed File</string>
+	<string>Download Completed File (Modified)</string>
 	<maxlength>20</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_download_completed.png"></img></td></tr></table>]]></context>
 </items>
