@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?><application>
+<items>
+	<unique_id>job_details_modified</unique_id>
+	<string>Podrobnosti o práci</string>
+	<maxlength>20</maxlength>
+   	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_details.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>job_edit_alsomodified</unique_id>
+	<string>Úpravy</string>
+	<maxlength>2</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_edit.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>job_donwload_original</unique_id>
+	<string>Stáhnout původní soubor</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_download_original.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>job_donwload_completed</unique_id>
+	<string>Stáhnout dokončenou soubor (změněno)</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_download_completed.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>due_date</unique_id>
+	<string>Datum splatnosti</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/due_date.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>status</unique_id>
+	<string>Stav</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/status.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>project</unique_id>
+	<string>Projekt</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/project.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>source_language</unique_id>
+	<string>Zdrojový jazyk</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/source_language.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>target_language</unique_id>
+	<string>Traget jazyk</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/target_language.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>workflow_step</unique_id>
+	<string>Krok pracovního postupu</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/workflow_step.png"></img></td></tr></table>]]></context>
+</items>
+	
+<items>
+	<unique_id>assigned_providers_modified</unique_id>
+	<string>PŘIŘAZENO poskytovatelé (změněno)</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/assigned_providers.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>status_history</unique_id>
+	<string>PŘIŘAZENÉ POSKYTOVATELÉ</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/status_history.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>created</unique_id>
+	<string>Vytvořil(a)</string>
+	<maxlength>20</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+
+<items>
+	<unique_id>new</unique_id>
+	<string>Přidáno řetězec</string>
+	<maxlength>15</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+	
+<items>
+	<unique_id>new_2</unique_id>
+	<string>A další přidané řetězce</string>
+	<maxlength>15</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>
+	
+	
+</application>
