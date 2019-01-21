@@ -36,7 +36,7 @@
 
 <items>
 	<unique_id>status</unique_id>
-	<string>Stato</string>
+	<string>Statos</string>
 	<maxlength>20</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/status.png"></img></td></tr></table>]]></context>
 </items>
