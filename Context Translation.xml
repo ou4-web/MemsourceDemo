@@ -43,7 +43,27 @@
   <unique_id>job_name_description</unique_id>
     <string>Insert a Job</string>
     <description>
-    We meet again
+    We meet again haha
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/Job-1.png"></img></td></tr></table>]]></context>
+
+</items>
+	
+	<items>
+  <unique_id>job_name_description</unique_id>
+    <string>Insert a Job</string>
+    <description>
+    We meet again ou yes
+    </description>
+    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/Job-1.png"></img></td></tr></table>]]></context>
+
+</items>
+	
+	<items>
+  <unique_id>job_name_description</unique_id>
+    <string>Insert a Job</string>
+    <description>
+    We meet again here as well
     </description>
     <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/Job-1.png"></img></td></tr></table>]]></context>
 
