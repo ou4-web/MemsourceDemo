@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?><application>
+
+<items>
+  <unique_id></unique_id>
+    <string></string>
+    <description></description>
+    <context></context>
+
+</items>
+
+<items>
+  <unique_id>pok</unique_id>
+    <string>Job Page</string>
+    <description>The job management</description>
+    <context></context>
+
+</items>
+
+<items>
+  <unique_id></unique_id>
+    <string></string>
+    <description></description>
+    <context></context>
+
+</items>
+	
+<items>
+  <unique_id></unique_id>
+    <string></string>
+    <description></description>
+    <context></context>
+
+</items><items>
+  <unique_id></unique_id>
+    <string></string>
+    <description></description>
+    <context></context>
+
+</items>
+
+
+</application>
