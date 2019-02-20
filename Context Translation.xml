@@ -2,17 +2,6 @@
 <application>
 
 <items>
-  <unique_id>dashboard_name</unique_id>
-    <string>Dashboard Home Page</string>
-	<maxlength>15</maxlength>
-    <description>
-    The start of the application  
-    </description>
-    <context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/09/dashboard.png"></img></td></tr></table>]]></context>
-
-</items>
-
-<items>
   <unique_id>project_name</unique_id>
     <string>Project Overview</string>
     <description>
