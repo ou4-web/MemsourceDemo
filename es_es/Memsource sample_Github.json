@@ -1,0 +1,14 @@
+{
+    "list": {
+            "id": "1",
+            "value": "texto 1 para la traducción. Otros datos."
+        },
+    "text": {
+            "id": "2",
+            "value": "texto 2 para la traducción."
+        },
+    "menu": {
+            "id": "3",
+            "value": "3 el texto para la traducción. Texto adicional."
+             }
+    }
