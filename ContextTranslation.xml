@@ -105,5 +105,11 @@
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
 </items>
 	
+<items>
+	<unique_id>key_today</unique_id>
+	<string>This string has been added on 13/3/2019 at 11:00 AM</string>
+	<maxlength>35</maxlength>
+	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/created.png"></img></td></tr></table>]]></context>
+</items>	
 	
 </application>
