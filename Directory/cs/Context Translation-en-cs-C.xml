@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?><application>
 <items>
 	<unique_id>job_details_modified</unique_id>
-	<string>Podrobnosti o prácidfdkalfdkslafjdkljl</string>
+	<string>Podrobnosti o prácid</string>
 	<maxlength>20</maxlength>
    	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_details.png"></img></td></tr></table>]]></context>
 </items>
