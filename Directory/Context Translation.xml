@@ -23,7 +23,7 @@
 
 <items>
 	<unique_id>job_donwload_completed</unique_id>
-	<string>Download Completed File (Modified)</string>
+	<string>Download Completed File (Modified) 1</string>
 	<maxlength>20</maxlength>
 	<context><![CDATA[<table><tr><td valign="top" width="250"><img src="https://memsourcedemo.com/wordpress-demo/wp-content/uploads/2018/10/job_download_completed.png"></img></td></tr></table>]]></context>
 </items>
